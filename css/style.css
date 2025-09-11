@@ -1,0 +1,177 @@
+/* ======== LAYOUT GERAL ======== */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #f9f9f9;
+    color: #222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+}
+
+/* ======== TÍTULO ======== */
+h1 {
+    margin-bottom: 5px;
+    color: #222;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#titulo {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0 20px;
+    display: block;
+    color: #555;
+}
+
+/* ======== NAVEGAÇÃO ======== */
+#navegacao {
+    margin: 15px 0 25px;
+    font-size: 16px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#navegacao label {
+    font-weight: bold;
+    color: #333;
+    margin-right: 5px;
+}
+
+#navegacao select,
+#navegacao input {
+    padding: 6px 10px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background: #fff;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+#navegacao select:focus,
+#navegacao input:focus {
+    border-color: #3a8dde;
+    box-shadow: 0 0 4px rgba(58, 141, 222, 0.5);
+    outline: none;
+}
+
+/* Botões extras (se precisar futuramente) */
+#navegacao button {
+    background: #3a8dde;
+    color: #fff;
+    border: none;
+    padding: 8px 14px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background 0.3s;
+    font-size: 15px;
+}
+
+#navegacao button:hover {
+    background: #3276c5;
+}
+
+/* ======== CALENDÁRIO ======== */
+#calendario {
+    display: grid;
+    grid-template-columns: repeat(10, 100px);
+    /* 10 dias por semana */
+    grid-auto-rows: 100px;
+    /* altura fixa dos quadrados */
+    border: 1px solid #ccc;
+    background: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+
+/* Cabeçalho da semana (Dia 1 até Dia 10) */
+.cabecalho-dia {
+    text-align: center;
+    font-weight: bold;
+    background: #f0f0f0;
+    border: 1px solid #ddd;
+    padding: 8px 0;
+    font-size: 14px;
+}
+
+/* Quadrados dos dias */
+.dia {
+    border: 1px solid #ddd;
+    padding: 5px;
+    text-align: right;
+    font-size: 14px;
+    position: relative;
+    cursor: pointer;
+    background: #fff;
+    transition: background 0.2s;
+}
+
+.dia:hover {
+    background: #f7f7f7;
+}
+
+/* Eventos dentro do dia */
+/* Eventos dentro do dia */
+.evento {
+    display: block;
+    width: 100%;
+    height: 18px;
+    border-radius: 12px;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/* ======== MODAL ======== */
+#modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+#modal-conteudo {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    max-height: 70vh;
+    overflow-y: auto;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+#modal h2 {
+    margin-top: 0;
+    color: #3a8dde;
+}
+
+#modal-eventos {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+#fechar {
+    cursor: pointer;
+    float: right;
+    color: crimson;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#fechar:hover {
+    color: #ff5555;
+}
