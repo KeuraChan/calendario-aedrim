@@ -357,26 +357,115 @@ const eventos = [
   },
 
   // EVENTOS DEFINIDORES
-  {
-    ano: 4895,
-    estacao: "Inverno",
-    dia: 15,
-    eventos: [
-      "Morte da Rainha de Rubi, fim da guerra contra Companhia Negra",
-    ],
-    comemorativa: false,
-    definidor: true
-  },
+  
   {
     ano: 0,
     estacao: "Inverno",
     dia: 21,
     eventos: [
-      "Criação da segunda Arhön, iniciada no primeiro dia da primavera",
+      "Criação de Arhön, iniciada no primeiro dia da primavera",
     ],
     comemorativa: false,
     definidor: true
   },
+    {
+    ano: -1000,
+    estacao: "Outono",
+    dia: 43,
+    eventos: [
+      "O Pacto das Três Luas é formado na região do pântano de sangue",
+    ],
+    comemorativa: false,
+    definidor: true
+  },
+  {
+    ano: -53,
+    estacao: "Primavera",
+    dia: 2,
+    eventos: [
+      "Queda do Cometa da lua de Prata no mar de cobre"
+    ],
+    comemorativa: false,
+    definidor: true
+  },
+  {
+    ano: 95,
+    estacao: "Primavera",
+    dia: 2,
+    eventos: [
+      "Início primeiro Reinado Élfico"
+    ],
+    comemorativa: false,
+    definidor: true
+  },
+  { ano: 395, estacao: "Outono", dia: 12, eventos: ["2° Reinado Élfico"], comemorativa: false, definidor: true },
+  { ano: 695, estacao: "Inverno", dia: 45, eventos: ["3° Reinado Élfico"], comemorativa: false, definidor: true },
+  { ano: 995, estacao: "Primavera", dia: 77, eventos: ["4° Reinado Élfico"], comemorativa: false, definidor: true },
+  { ano: 1200, estacao: "Verão", dia: 30, eventos: ["Nascimento dos Meio Dragões"], comemorativa: false, definidor: true },
+  { ano: 1295, estacao: "Outono", dia: 64, eventos: ["5° Reinado Élfico"], comemorativa: false, definidor: true },
+  { ano: 1358, estacao: "Primavera", dia: 18, eventos: ["Começo da 2° era"], comemorativa: false, definidor: true },
+  { ano: 1595, estacao: "Inverno", dia: 82, eventos: ["6° Reinado Élfico"], comemorativa: false, definidor: true },
+  { ano: 1615, estacao: "Verão", dia: 34, eventos: ["Ascensão de Gromn, o Acorrentado"], comemorativa: false, definidor: true },
+  { ano: 1630, estacao: "Inverno", dia: 70, eventos: ["Extermínio do povo lagarto no Pântano de Sangue"], comemorativa: false, definidor: true },
+  { ano: 1637, estacao: "Outono", dia: 22, eventos: ["Levante do forte de Mysteria"], comemorativa: false, definidor: true },
+  { ano: 1643, estacao: "Primavera", dia: 59, eventos: ["União dos povos do pântano e aventureiros para aprisionar Gromn"], comemorativa: false, definidor: true },
+  { ano: 1895, estacao: "Verão", dia: 17, eventos: ["7° Reinado Élfico"], comemorativa: false, definidor: true },
+  { ano: 2057, estacao: "Primavera", dia: 15, eventos: ["Nascimento da Terceira Filha de Morgana, Lura Carmesim"], comemorativa: false, definidor: true },
+  { ano: 2075, estacao: "Inverno", dia: 30, eventos: ["Mordür envia uma praga de morte ao mundo"], comemorativa: false, definidor: true },
+  { ano: 2083, estacao: "Outono", dia: 51, eventos: ["Aventureiros param a praga de morte; Lura entrega o artefato aos elfos do subterrâneo" ], comemorativa: false, definidor: true },
+  { ano: 2090, estacao: "Verão", dia: 11, eventos: ["Escassez de Recursos humanos"], comemorativa: false, definidor: true },
+  { ano: 2102, estacao: "Primavera", dia: 67, eventos: ["Aliança humana com povos Orcs e Goblinóides"], comemorativa: false, definidor: true },
+  { ano: 2120, estacao: "Inverno", dia: 40, eventos: ["Invasão e conquista de Mihödir pelo Rei Negro"], comemorativa: false, definidor: true },
+  { ano: 2190, estacao: "Outono", dia: 36, eventos: ["Destruição da Primeira Arhön"], comemorativa: false, definidor: true },
+  { ano: 2193, estacao: "Primavera", dia: 44, eventos: ["Começo do Período de Acordos"], comemorativa: false, definidor: true },
+  { ano: 2195, estacao: "Verão", dia: 88, eventos: ["Arhön permanece sem um rei"], comemorativa: false, definidor: true },
+  { ano: 2222, estacao: "Outono", dia: 70, eventos: ["Invasão da Biblioteca Negra por seguidores de Gothgen"], comemorativa: false, definidor: true },
+  { ano: 2230, estacao: "Primavera", dia: 9, eventos: ["Restabelecimento de uma nova Arhön"], comemorativa: false, definidor: true },
+  { ano: 2398, estacao: "Verão", dia: 15, eventos: ["Mihödir é liberta"], comemorativa: false, definidor: true },
+  { ano: 2483, estacao: "Outono", dia: 60, eventos: ["Início do reinado do Punhos de Ferro, fim dos acordos"], comemorativa: false, definidor: true },
+  { ano: 2495, estacao: "Primavera", dia: 26, eventos: ["8° Reinado Élfico"], comemorativa: false, definidor: true },
+  { ano: 2539, estacao: "Inverno", dia: 53, eventos: ["Morte do Punhos de Ferro por sua filha Mellar Zephiron; início da família real Zephiron"], comemorativa: false, definidor: true },
+  { ano: 2757, estacao: "Primavera", dia: 25, eventos: ["Quarta Filha de Morgana, Mira Rubi nasce"], comemorativa: false, definidor: true },
+  { ano: 2786, estacao: "Verão", dia: 20, eventos: ["Mira Rubi estabelece um templo à Morgana nos Sussurrantes"], comemorativa: false, definidor: true },
+  { ano: 2794, estacao: "Primavera", dia: 50, eventos: ["Estabelecimento das rotas de comércio navais de Aedrim, início da Terceira Era"], comemorativa: false, definidor: true },
+  { ano: 2795, estacao: "Outono", dia: 7, eventos: ["9° Reinado Élfico"], comemorativa: false, definidor: true },
+  { ano: 2801, estacao: "Inverno", dia: 5, eventos: ["Início do Pacto Sombrio"], comemorativa: false, definidor: true },
+  { ano: 2815, estacao: "Primavera", dia: 70, eventos: ["Povos do subterrâneo tentam afundar o mundo no Reino Cinza"], comemorativa: false, definidor: true },
+  { ano: 2816, estacao: "Verão", dia: 44, eventos: ["Aventureiros resgatam o avatar de Embrace e destroem líderes do Pacto Sombrio"], comemorativa: false, definidor: true },
+  { ano: 3095, estacao: "Primavera", dia: 1, eventos: ["10° Reinado Élfico"], comemorativa: false, definidor: true },
+  { ano: 3145, estacao: "Outono", dia: 10, eventos: ["Arcanistas capturam o avatar de Allure; tentativa de controlar a magia gera instabilidade arcana"], comemorativa: false, definidor: true },
+  { ano: 3395, estacao: "Primavera", dia: 36, eventos: ["11° Reinado Élfico"], comemorativa: false, definidor: true },
+  { ano: 3457, estacao: "Primavera", dia: 20, eventos: ["Quinta Filha de Morgana"], comemorativa: false, definidor: true },
+  { ano: 3695, estacao: "Inverno", dia: 14, eventos: ["12° Reinado Élfico"], comemorativa: false, definidor: true },
+  { ano: 3707, estacao: "Verão", dia: 40, eventos: ["Abertura do Castelo das 9 Escolas em Akarajan"], comemorativa: false, definidor: true },
+  { ano: 3810, estacao: "Outono", dia: 15, eventos: ["Morte do Dragão das Terras Áridas e Levante do Forte do Dragão Dormente"], comemorativa: false, definidor: true },
+  { ano: 3995, estacao: "Primavera", dia: 88, eventos: ["13° Reinado Élfico"], comemorativa: false, definidor: true },
+  { ano: 4020, estacao: "Inverno", dia: 29, eventos: ["Uma cidade surge do Forte do Dragão Dormente"], comemorativa: false, definidor: true },
+  { ano: 4157, estacao: "Primavera", dia: 15, eventos: ["Sexta Filha de Morgana"], comemorativa: false, definidor: true },
+  { ano: 4295, estacao: "Primavera", dia: 63, eventos: ["14° Reinado Élfico"], comemorativa: false, definidor: true },
+  { ano: 4400, estacao: "Verão", dia: 25, eventos: ["Amargo torna-se líder de Dragão Dormente"], comemorativa: false, definidor: true },
+  { ano: 4595, estacao: "Primavera", dia: 1, eventos: ["15° Reinado Élfico"], comemorativa: false, definidor: true },
+  { ano: 4805, estacao: "Primavera", dia: 60, eventos: ["Primavera Vermelha: necromante invade Lago de Rubi e mata a população"], comemorativa: false, definidor: true },
+  { ano: 4857, estacao: "Primavera", dia: 20, eventos: ["Nascimento de Kara Escarlate, Sétima Filha de Morgana"], comemorativa: false, definidor: true },
+  { ano: 4865, estacao: "Verão", dia: 15, eventos: ["Kara é encontrada pelo grupo 7 da Companhia Negra"], comemorativa: false, definidor: true },
+  { ano: 4890, estacao: "Primavera", dia: 5, eventos: ["Início da Guerra contra a Companhia Negra."], comemorativa: false, definidor: true },
+  { ano: 4890, estacao: "Verão", dia: 8, eventos: ["Morte de Ignacius II Rei de Badür"], comemorativa: false, definidor: true },
+  { ano: 4892, estacao: "Verão", dia: 10, eventos: ["Ataque ao Forte Estrela Negra"], comemorativa: false, definidor: true },
+  { ano: 4892, estacao: "Outono", dia: 40, eventos: ["Destruição completa da cidade de Aush"], comemorativa: false, definidor: true },
+  { ano: 4893, estacao: "Primavera", dia: 23, eventos: ["Batalha do Rio de Sangue"], comemorativa: false, definidor: true },
+  { ano: 4895, estacao: "Inverno", dia: 1, eventos: ["16° Reinado Élfico"], comemorativa: false, definidor: true },
+  { ano: 4895, estacao: "Primavera", dia: 1, eventos: ["Desaparecimento de Maoridos Rhines;"], comemorativa: false, definidor: true },
+  { ano: 4895, estacao: "Inverno", dia: 15, eventos: ["Morte da Rainha de Rubi, fim da guerra contra Companhia Negra",], comemorativa: false, definidor: true },
+  {
+    ano: 4900,
+    estacao: "Primavera",
+    dia: 64,
+    eventos: [
+      "Invasão Goblinóide à Dragão Dormente"
+    ],
+    comemorativa: false,
+    definidor: true
+  }
 
   // LINHA DO TEMPO
   {
@@ -1126,4 +1215,3 @@ const eventos = [
     comemorativa: false,
   },
 ];
-
