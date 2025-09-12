@@ -128,6 +128,68 @@ h1 {
     text-align: center;
     font-weight: bold;
 }
+/* Botão */
+#toggle-menu {
+  background: #1a1a1a;
+  color: #eee;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+/* Fundo escuro transparente */
+.menu-modal {
+  display: none; /* oculto por padrão */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  z-index: 2000;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+/* Conteúdo lateral */
+.menu-conteudo {
+  background: #1a1a1a;
+  color: #eee;
+  width: 300px;
+  max-width: 80%;
+  height: 100%;
+  padding: 20px;
+  overflow-y: auto;
+  box-shadow: 2px 0 8px rgba(0,0,0,0.4);
+}
+
+/* Estilo da lista */
+.menu-conteudo h2 {
+  margin-top: 0;
+  color: #f54242;
+}
+
+.menu-conteudo ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-conteudo li {
+  margin: 6px 0;
+  cursor: pointer;
+  padding: 6px;
+  border-radius: 5px;
+  background: #222;
+  transition: background 0.2s;
+}
+
+.menu-conteudo li:hover {
+  background: #333;
+}
 
 
 /* ======== MODAL ======== */
