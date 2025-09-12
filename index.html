@@ -6,46 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calendário de Aedrim</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/app.js" defer></script>
+    <!-- ⚡ eventos.js deve vir antes de app.js -->
     <script src="data/eventos.js" defer></script>
+    <script src="js/app.js" defer></script>
 </head>
 
 <body style="background-image: url(assets/AedrimMap.jpg); background-size: cover;">
     <h1>📜 Calendário de Aedrim</h1>
+    <div id="container">
+        <!-- Botão abre o menu -->
+        <button id="toggle-menu">☰ Eventos Definidores</button>
 
-    <!-- Navegação -->
-    <div id="navegacao">
-        <label for="estacao">Estação:</label>
-        <select id="estacao" onchange="mudarEstacao()">
-            <option>Primavera</option>
-            <option>Verão</option>
-            <option>Outono</option>
-            <option>Inverno</option>
-        </select>
+        <!-- Modal lateral -->
+        <div id="menu-definidores" class="menu-modal">
+            <div class="menu-conteudo">
+                <h2>Eventos Definidores</h2>
+                <ul id="definidores"></ul>
+            </div>
+        </div>
 
-        <label for="ano">Ano:</label>
-        <input type="number" id="ano" min="1" max="4900" value="4900" onchange="mudarAno()">
+        <!-- Conteúdo principal -->
+        <main>
+            <!-- Navegação -->
+            <div id="navegacao">
+                <label for="estacao">Estação:</label>
+                <select id="estacao" onchange="mudarEstacao()">
+                    <option>Primavera</option>
+                    <option>Verão</option>
+                    <option>Outono</option>
+                    <option>Inverno</option>
+                </select>
 
-        <!-- 🔥 este span é obrigatório -->
-        <span id="titulo"></span>
+                <label for="ano">Ano:</label>
+                <input type="number" id="ano" min="1" max="4900" value="4900" onchange="mudarAno()">
+
+                <!-- mostra a estação/ano -->
+                <span id="titulo"></span>
+            </div>
+
+            <!-- Calendário -->
+            <div class="overflow_div" style="overflow-x: scroll; max-width: 100vw;">
+                <div id="calendario">
+                    <!-- JS vai preencher aqui -->
+                </div>
+            </div>
+        </main>
     </div>
-
-
-
-    <div id="calendario">
-        <div class="cabecalho-dia">Dia 1</div>
-        <div class="cabecalho-dia">Dia 2</div>
-        <div class="cabecalho-dia">Dia 3</div>
-        <div class="cabecalho-dia">Dia 4</div>
-        <div class="cabecalho-dia">Dia 5</div>
-        <div class="cabecalho-dia">Dia 6</div>
-        <div class="cabecalho-dia">Dia 7</div>
-        <div class="cabecalho-dia">Dia 8</div>
-        <div class="cabecalho-dia">Dia 9</div>
-        <div class="cabecalho-dia">Dia 10</div>
-        <!-- aqui entram os dias normais preenchidos pelo JS -->
-    </div>
-
 
     <!-- Modal -->
     <div id="modal">
