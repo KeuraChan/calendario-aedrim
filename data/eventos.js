@@ -300,21 +300,21 @@ const eventos = [
     comemorativa: true,
   },
   {
-    ano: 1000,
+    ano: 2431,
     estacao: "Inverno",
     dia: 6,
     eventos: ["Canções da Fogueira de Markath"],
     comemorativa: true,
   },
   {
-    ano: 4895,
+    ano: 4896,
     estacao: "Inverno",
     dia: 15,
     eventos: ["Sacrifício da Bruxa Vermelha"],
     comemorativa: true,
   },
   {
-    ano: 1000,
+    ano: 2148,
     estacao: "Inverno",
     dia: 21,
     eventos: ["Súplicas pela Grande Árvore"],
@@ -363,6 +363,16 @@ const eventos = [
     dia: 15,
     eventos: [
       "Morte da Rainha de Rubi, fim da guerra contra Companhia Negra",
+    ],
+    comemorativa: false,
+    definidor: true
+  },
+  {
+    ano: 0,
+    estacao: "Inverno",
+    dia: 21,
+    eventos: [
+      "Criação da segunda Arhön, iniciada no primeiro dia da primavera",
     ],
     comemorativa: false,
     definidor: true
@@ -1116,3 +1126,4 @@ const eventos = [
     comemorativa: false,
   },
 ];
+
