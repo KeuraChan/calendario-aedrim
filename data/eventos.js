@@ -465,7 +465,7 @@ const eventos = [
     ],
     comemorativa: false,
     definidor: true
-  }
+  },
 
   // LINHA DO TEMPO
   {
