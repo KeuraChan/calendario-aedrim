@@ -9,12 +9,14 @@ const diasPorEstacao = {
 
 const estacoes = ["Primavera", "Verão", "Outono", "Inverno"];
 
-// Renderiza o calendário
+
 // Renderiza o calendário
 function renderCalendario() {
   const cal = document.getElementById("calendario");
   cal.innerHTML = "";
-  document.getElementById("titulo").innerText = `${estacaoAtual} - Ano ${anoAtual}`;
+  document.getElementById(
+    "titulo"
+  ).innerText = `${estacaoAtual} - Ano ${anoAtual}`;
 
   for (let d = 1; d <= diasPorEstacao[estacaoAtual]; d++) {
     const dia = document.createElement("div");
@@ -41,7 +43,11 @@ function renderCalendario() {
         const marcador = document.createElement("div");
         marcador.classList.add("evento");
 
-        if (evento.comemorativa) {
+        if (evento.definidor) {
+          marcador.innerText = "◆";
+          marcador.style.background = "red";
+          marcador.style.color = "white";
+        } else if (evento.comemorativa) {
           marcador.innerText = "★";
           marcador.style.background = "gold";
           marcador.style.color = "black";
@@ -59,7 +65,11 @@ function renderCalendario() {
       // Clique abre o modal com todos os eventos do dia
       dia.onclick = () => {
         const listaEventos = eventosDoDia.flatMap((e) => e.eventos);
-        abrirModal(d, listaEventos, eventosDoDia.some((e) => e.comemorativa));
+        abrirModal(
+          d,
+          listaEventos,
+          eventosDoDia.some((e) => e.comemorativa)
+        );
       };
     }
 
@@ -67,17 +77,70 @@ function renderCalendario() {
   }
 }
 
-
-// Abre modal de eventos
-// Abre modal de eventos
-function abrirModal(dia, listaEventos, comemorativa) {
-  document.getElementById("modal-data").innerText =
-    `${dia} de ${estacaoAtual}, Ano ${anoAtual}`;
-
-  const lista = document.getElementById("modal-eventos");
+// Renderiza os eventos definidores
+function renderDefinidores() {
+  const lista = document.getElementById("definidores");
+  if (!lista) return;
   lista.innerHTML = "";
 
-  // Pega eventos do dia (comemorativos primeiro)
+  const estacaoOrdem = {
+    "Primavera": 1,
+    "Verão": 2,
+    "Outono": 3,
+    "Inverno": 4,
+  };
+
+  // filtra só os definidores
+  const definidores = eventos.filter(e => e.definidor);
+
+  // ordena do mais novo pro mais antigo
+  definidores.sort((a, b) => {
+    if (a.ano !== b.ano) return b.ano - a.ano; // ano desc
+    if (a.estacao !== b.estacao) return estacaoOrdem[b.estacao] - estacaoOrdem[a.estacao]; // estacao desc
+    return b.dia - a.dia; // dia desc
+  });
+
+  // monta lista
+  definidores.forEach(ev => {
+    const li = document.createElement("li");
+    li.innerText = `${ev.eventos[0]} (${ev.estacao} ${ev.dia}, Ano ${ev.ano})`;
+    li.onclick = () => irParaEvento(ev);
+    lista.appendChild(li);
+  });
+}
+
+function irParaEvento(ev) {
+  // muda ano e estação
+  anoAtual = ev.ano;
+  estacaoAtual = ev.estacao;
+
+  // atualiza os selects do HTML
+  document.getElementById("estacao").value = estacaoAtual;
+  document.getElementById("ano").value = anoAtual;
+
+  // redesenha o calendário
+  renderCalendario();
+
+  // destaca o dia do evento
+  const dias = document.querySelectorAll("#calendario .dia");
+  dias.forEach(d => {
+    if (parseInt(d.innerText) === ev.dia) {
+      d.classList.add("selecionado");
+      d.scrollIntoView({ behavior: "smooth", block: "center" });
+    } else {
+      d.classList.remove("selecionado");
+    }
+  });
+
+  fecharModal()
+  // opcional: já abre o modal do evento
+  abrirModal(ev.dia, ev.eventos);
+
+}
+
+
+// Abre modal de eventos
+function abrirModal(dia, listaEventos) {
   const eventosDoDia = eventos.filter(
     (e) =>
       e.estacao === estacaoAtual &&
@@ -85,10 +148,45 @@ function abrirModal(dia, listaEventos, comemorativa) {
       (e.ano === anoAtual || (e.comemorativa && anoAtual >= e.ano))
   );
 
-  const comemorativos = eventosDoDia.filter((e) => e.comemorativa);
-  const normais = eventosDoDia.filter((e) => !e.comemorativa);
+  // monta título
+  let titulo = `${dia} de ${estacaoAtual}, Ano ${anoAtual}`;
+  if (eventosDoDia.some((e) => e.definidor)) titulo += " 🔴 (Evento Definidor)";
+  else if (eventosDoDia.some((e) => e.comemorativa))
+    titulo += " 🌟 (Comemorativo)";
 
-  // --- Eventos comemorativos primeiro ---
+  document.getElementById("modal-data").innerText = titulo;
+
+  const lista = document.getElementById("modal-eventos");
+  lista.innerHTML = "";
+
+  // separa por tipo
+  const definidores = eventosDoDia.filter((e) => e.definidor);
+  const comemorativos = eventosDoDia.filter(
+    (e) => e.comemorativa && !e.definidor
+  );
+  const normais = eventosDoDia.filter((e) => !e.comemorativa && !e.definidor);
+
+  // --- Eventos definidores ---
+  definidores.forEach((ev) => {
+    ev.eventos.forEach((txt) => {
+      const li = document.createElement("li");
+      li.innerText = txt + " 🔴";
+      li.style.color = "red";
+      li.style.fontWeight = "bold";
+      lista.appendChild(li);
+    });
+  });
+
+  // separador
+  if (definidores.length && (comemorativos.length || normais.length)) {
+    const hr = document.createElement("hr");
+    hr.style.border = "none";
+    hr.style.borderTop = "1px solid #ccc";
+    hr.style.margin = "8px 0";
+    lista.appendChild(hr);
+  }
+
+  // --- Eventos comemorativos ---
   comemorativos.forEach((ev) => {
     ev.eventos.forEach((txt) => {
       const li = document.createElement("li");
@@ -99,13 +197,13 @@ function abrirModal(dia, listaEventos, comemorativa) {
     });
   });
 
-  // --- Separador se tiver os dois tipos ---
-  if (comemorativos.length > 0 && normais.length > 0) {
-    const separador = document.createElement("hr");
-    separador.style.border = "none";
-    separador.style.borderTop = "1px solid #ccc";
-    separador.style.margin = "8px 0";
-    lista.appendChild(separador);
+  // separador
+  if (comemorativos.length && normais.length) {
+    const hr = document.createElement("hr");
+    hr.style.border = "none";
+    hr.style.borderTop = "1px solid #ccc";
+    hr.style.margin = "8px 0";
+    lista.appendChild(hr);
   }
 
   // --- Eventos normais ---
@@ -120,10 +218,10 @@ function abrirModal(dia, listaEventos, comemorativa) {
   document.getElementById("modal").style.display = "flex";
 }
 
-
 // Fecha modal
 function fecharModal() {
   document.getElementById("modal").style.display = "none";
+  document.getElementById("menu-definidores").style.display = "none";
 }
 
 // Troca estação pelo select
@@ -162,9 +260,33 @@ function anterior() {
   renderCalendario();
 }
 
+
+const toggleMenu = document.getElementById("toggle-menu");
+const menuModal = document.getElementById("menu-definidores");
+
+toggleMenu.addEventListener("click", () => {
+  menuModal.style.display = "flex"; // abre
+});
+
+// Fechar clicando fora do conteúdo
+menuModal.addEventListener("click", (e) => {
+  if (e.target === menuModal) {
+    menuModal.style.display = "none";
+  }
+});
+
+// Opcional: fechar com ESC
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape") {
+    menuModal.style.display = "none";
+  }
+});
+
+
 // 🔥 Inicializa somente depois do DOM estar pronto
 document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("estacao").value = estacaoAtual;
   document.getElementById("ano").value = anoAtual;
   renderCalendario();
+  renderDefinidores();
 });
