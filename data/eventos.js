@@ -356,6 +356,18 @@ const eventos = [
     comemorativa: true,
   },
 
+  // EVENTOS DEFINIDORES
+  {
+    ano: 4895,
+    estacao: "Inverno",
+    dia: 15,
+    eventos: [
+      "Morte da Rainha de Rubi, fim da guerra contra Companhia Negra",
+    ],
+    comemorativa: false,
+    definidor: true
+  },
+
   // LINHA DO TEMPO
   {
     ano: 4892,
