@@ -427,6 +427,7 @@ const eventos = [
   { ano: 2539, estacao: "Inverno", dia: 53, eventos: ["Morte do Punhos de Ferro por sua filha Mellar Zephiron; início da família real Zephiron"], comemorativa: false, definidor: true },
   { ano: 2757, estacao: "Primavera", dia: 25, eventos: ["Quarta Filha de Morgana, Mira Rubi nasce"], comemorativa: false, definidor: true },
   { ano: 2786, estacao: "Verão", dia: 20, eventos: ["Mira Rubi estabelece um templo à Morgana nos Sussurrantes"], comemorativa: false, definidor: true },
+  { ano: 2791, estacao: "Outono", dia: 15, eventos: ["Morte do Dragão das Terras Áridas e Levante do Forte do Dragão Dormente"], comemorativa: false, definidor: true },
   { ano: 2794, estacao: "Primavera", dia: 50, eventos: ["Estabelecimento das rotas de comércio navais de Aedrim, início da Terceira Era"], comemorativa: false, definidor: true },
   { ano: 2795, estacao: "Outono", dia: 7, eventos: ["9° Reinado Élfico"], comemorativa: false, definidor: true },
   { ano: 2801, estacao: "Inverno", dia: 5, eventos: ["Início do Pacto Sombrio"], comemorativa: false, definidor: true },
@@ -438,7 +439,6 @@ const eventos = [
   { ano: 3457, estacao: "Primavera", dia: 20, eventos: ["Quinta Filha de Morgana"], comemorativa: false, definidor: true },
   { ano: 3695, estacao: "Inverno", dia: 14, eventos: ["12° Reinado Élfico"], comemorativa: false, definidor: true },
   { ano: 3707, estacao: "Verão", dia: 40, eventos: ["Abertura do Castelo das 9 Escolas em Akarajan"], comemorativa: false, definidor: true },
-  { ano: 3810, estacao: "Outono", dia: 15, eventos: ["Morte do Dragão das Terras Áridas e Levante do Forte do Dragão Dormente"], comemorativa: false, definidor: true },
   { ano: 3995, estacao: "Primavera", dia: 88, eventos: ["13° Reinado Élfico"], comemorativa: false, definidor: true },
   { ano: 4020, estacao: "Inverno", dia: 29, eventos: ["Uma cidade surge do Forte do Dragão Dormente"], comemorativa: false, definidor: true },
   { ano: 4157, estacao: "Primavera", dia: 15, eventos: ["Sexta Filha de Morgana"], comemorativa: false, definidor: true },
@@ -456,16 +456,8 @@ const eventos = [
   { ano: 4895, estacao: "Inverno", dia: 1, eventos: ["16° Reinado Élfico"], comemorativa: false, definidor: true },
   { ano: 4895, estacao: "Primavera", dia: 1, eventos: ["Desaparecimento de Maoridos Rhines;"], comemorativa: false, definidor: true },
   { ano: 4895, estacao: "Inverno", dia: 15, eventos: ["Morte da Rainha de Rubi, fim da guerra contra Companhia Negra",], comemorativa: false, definidor: true },
-  {
-    ano: 4900,
-    estacao: "Primavera",
-    dia: 64,
-    eventos: [
-      "Invasão Goblinóide à Dragão Dormente"
-    ],
-    comemorativa: false,
-    definidor: true
-  },
+  { ano: 4900, estacao: "Primavera", dia: 64, eventos: ["Invasão Goblinóide à Dragão Dormente"],comemorativa: false,definidor: true },
+  { ano: 4900, estacao: "Verão", dia: 7, eventos: ["Um Eclipse recai son o céu de Aedrim após a metade do dia"],comemorativa: false,definidor: true },
 
   // LINHA DO TEMPO
   {
@@ -1211,6 +1203,29 @@ const eventos = [
       "Charlotte  gasta 100 po para abrir uma conta no banco",
       "Charlotte deposita 412 pc, 180 pp, 280 po",
       "Varis se encontra com Lyra e diáloga com ela após a missa",
+      "Vésperus convence Boris à lhe dar uma caixa de peças de couro para vender na estrada."
+    ],
+    comemorativa: false,
+  },
+  {
+    ano: 4900,
+    estacao: "Verão",
+    dia: 7,
+    eventos: [
+      "Rafaela, Vésperus Luthier, Apis e Tilayra saem em aventura",
+      "Um eclipse solar acometa Aedrim",
+      "Tilayra entra na floresta e a lobos atacam",
+  	  "Durante a madrugada Vésperus Luthier e Rafaela tocam pela noite"
+    ],
+    comemorativa: false,
+  },
+  {
+    ano: 4900,
+    estacao: "Verão",
+    dia: 9,
+    eventos: [
+      "Os aventureiros  Apis, Tilayra, Vésperus, Rafaella e Jack seguem a viagem e durante a tarde são emboscados por goblins",
+      "Derrotando a emboscada eles verificam os estranhos atacantes e corpos"
     ],
     comemorativa: false,
   },
