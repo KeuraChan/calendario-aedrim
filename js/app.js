@@ -9,7 +9,6 @@ const diasPorEstacao = {
 
 const estacoes = ["Primavera", "Verão", "Outono", "Inverno"];
 
-
 // Renderiza o calendário
 function renderCalendario() {
   const cal = document.getElementById("calendario");
@@ -73,8 +72,48 @@ function renderCalendario() {
       };
     }
 
+    // Ícone da lua
+    // Ícone da lua como fundo
+    const lua = getFaseDaLua(anoAtual, estacaoAtual, d);
+    dia.style.backgroundImage = `url("assets/${lua}")`;
+    dia.style.backgroundRepeat = "no-repeat";
+    dia.style.backgroundPosition = "center 70%";
+
     cal.appendChild(dia);
   }
+}
+
+// ==== FASES DA LUA ====
+// ponto base: 4900, Verão, dia 7 = Minguante
+const baseLua = { ano: 4900, estacao: "Verão", dia: 3, fase: 5 };
+// fases: 0=Nova, 1=Crescente, 2=Meia-crescente, 3=Cheia, 4=Meia-minguante, 5=Minguante
+
+function getDiasTotais(ano, estacao, dia) {
+  const idx = estacoes.indexOf(estacao);
+  let total = ano * 365; // simplificação, cada ano tem 365/366 fictícios
+  for (let i = 0; i < idx; i++) total += diasPorEstacao[estacoes[i]];
+  total += dia;
+  return total;
+}
+
+function getFaseDaLua(ano, estacao, dia) {
+  const fases = [
+    "nova.png",
+    "crescente.png",
+    "meia-crescente.png",
+    "cheia.png",
+    "meia-minguante.png",
+    "minguante.png",
+  ];
+
+  const diasBase = getDiasTotais(baseLua.ano, baseLua.estacao, baseLua.dia);
+  const diasAtual = getDiasTotais(ano, estacao, dia);
+
+  const diff = diasAtual - diasBase;
+  let faseIndex = (baseLua.fase + Math.floor(diff / 7)) % fases.length;
+  if (faseIndex < 0) faseIndex += fases.length;
+
+  return fases[faseIndex];
 }
 
 // Renderiza os eventos definidores
@@ -84,24 +123,25 @@ function renderDefinidores() {
   lista.innerHTML = "";
 
   const estacaoOrdem = {
-    "Primavera": 1,
-    "Verão": 2,
-    "Outono": 3,
-    "Inverno": 4,
+    Primavera: 1,
+    Verão: 2,
+    Outono: 3,
+    Inverno: 4,
   };
 
   // filtra só os definidores
-  const definidores = eventos.filter(e => e.definidor);
+  const definidores = eventos.filter((e) => e.definidor);
 
   // ordena do mais novo pro mais antigo
   definidores.sort((a, b) => {
     if (a.ano !== b.ano) return b.ano - a.ano; // ano desc
-    if (a.estacao !== b.estacao) return estacaoOrdem[b.estacao] - estacaoOrdem[a.estacao]; // estacao desc
+    if (a.estacao !== b.estacao)
+      return estacaoOrdem[b.estacao] - estacaoOrdem[a.estacao]; // estacao desc
     return b.dia - a.dia; // dia desc
   });
 
   // monta lista
-  definidores.forEach(ev => {
+  definidores.forEach((ev) => {
     const li = document.createElement("li");
     li.innerText = `${ev.eventos[0]} (${ev.estacao} ${ev.dia}, Ano ${ev.ano})`;
     li.onclick = () => irParaEvento(ev);
@@ -123,7 +163,7 @@ function irParaEvento(ev) {
 
   // destaca o dia do evento
   const dias = document.querySelectorAll("#calendario .dia");
-  dias.forEach(d => {
+  dias.forEach((d) => {
     if (parseInt(d.innerText) === ev.dia) {
       d.classList.add("selecionado");
       d.scrollIntoView({ behavior: "smooth", block: "center" });
@@ -132,12 +172,10 @@ function irParaEvento(ev) {
     }
   });
 
-  fecharModal()
+  fecharModal();
   // opcional: já abre o modal do evento
   abrirModal(ev.dia, ev.eventos);
-
 }
-
 
 // Abre modal de eventos
 function abrirModal(dia, listaEventos) {
@@ -260,7 +298,6 @@ function anterior() {
   renderCalendario();
 }
 
-
 const toggleMenu = document.getElementById("toggle-menu");
 const menuModal = document.getElementById("menu-definidores");
 
@@ -281,7 +318,6 @@ document.addEventListener("keydown", (e) => {
     menuModal.style.display = "none";
   }
 });
-
 
 // 🔥 Inicializa somente depois do DOM estar pronto
 document.addEventListener("DOMContentLoaded", () => {
