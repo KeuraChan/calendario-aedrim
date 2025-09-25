@@ -253,6 +253,10 @@ h1 {
   z-index: 1500;
 }
 
+#legenda img:{
+    width: 8px;
+    height: 8px
+}
 #legenda:hover {
   width: 260px;         /* expande na horizontal */
   max-height: 300px;    /* expande na vertical */
