@@ -361,7 +361,6 @@ h1 {
   list-style: none;
   padding: 0;
   background: #fff;
-  border: 1px solid #ddd;
   border-radius: 8px;
   max-height: 250px;      /* limite de altura */
   overflow-y: auto;       /* scroll vertical se passar do limite */
@@ -374,13 +373,13 @@ h1 {
 #resultados-busca li {
   padding: 10px 12px;
   cursor: pointer;
-  border-bottom: 1px solid #eee;
   font-size: 14px;
 }
 
 #resultados-busca li:hover {
   background: #f0f0f0;
 }
+
 
 
 
