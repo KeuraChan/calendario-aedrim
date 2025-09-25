@@ -311,3 +311,38 @@ h1 {
     color: #ff5555;
 }
 
+#busca-container {
+  margin: 20px 0;
+  width: 100%;
+  max-width: 600px;
+}
+
+#busca {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+#resultados-busca {
+  margin-top: 10px;
+  list-style: none;
+  padding: 0;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+#resultados-busca li {
+  padding: 8px 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #eee;
+}
+
+#resultados-busca li:hover {
+  background: #f0f0f0;
+}
+
