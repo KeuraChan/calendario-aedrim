@@ -238,14 +238,14 @@ h1 {
 }
 
 #legenda {
-  margin: 0 auto;
-  margin-top: 20px;
+  margin: 20px auto;
   background: #fff;
   padding: 15px;
   border: 1px solid #ddd;
   border-radius: 8px;
-  max-width: 600px;
+  max-width: 500px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  align-text: center;
 }
 
 #legenda h3 {
@@ -358,4 +358,5 @@ h1 {
 #resultados-busca li:hover {
   background: #f0f0f0;
 }
+
 
