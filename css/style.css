@@ -238,6 +238,7 @@ h1 {
 }
 
 #legenda {
+  margin: 0 auto;
   margin-top: 20px;
   background: #fff;
   padding: 15px;
@@ -315,6 +316,7 @@ h1 {
   margin: 20px 0;
   width: 100%;
   max-width: 600px;
+  position: relative; /* mantém a lista colada ao input */
 }
 
 #busca {
@@ -322,27 +324,38 @@ h1 {
   padding: 10px;
   font-size: 16px;
   border: 1px solid #ccc;
-  border-radius: 6px;
+  border-radius: 25px; /* deixa arredondada */
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  outline: none;
+}
+
+#busca:focus {
+  border-color: #3a8dde;
+  box-shadow: 0 0 6px rgba(58, 141, 222, 0.5);
 }
 
 #resultados-busca {
-  margin-top: 10px;
+  margin-top: 8px;
   list-style: none;
   padding: 0;
   background: #fff;
   border: 1px solid #ddd;
-  border-radius: 6px;
-  max-height: 250px;
-  overflow-y: auto;
+  border-radius: 8px;
+  max-height: 250px;      /* limite de altura */
+  overflow-y: auto;       /* scroll vertical se passar do limite */
+  position: absolute;     /* flutua abaixo do input */
+  width: 100%;            /* acompanha a largura da barra */
+  z-index: 2000;          /* fica acima do calendário */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
 }
 
 #resultados-busca li {
-  padding: 8px 10px;
+  padding: 10px 12px;
   cursor: pointer;
   border-bottom: 1px solid #eee;
+  font-size: 14px;
 }
 
 #resultados-busca li:hover {
   background: #f0f0f0;
 }
-
