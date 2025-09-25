@@ -256,6 +256,40 @@ function abrirModal(dia, listaEventos) {
   document.getElementById("modal").style.display = "flex";
 }
 
+// --- BUSCA GLOBAL ---
+document.getElementById("busca").addEventListener("input", (e) => {
+  const termo = e.target.value.toLowerCase();
+  const lista = document.getElementById("resultados-busca");
+  lista.innerHTML = "";
+
+  if (termo.length < 2) return; // evita buscas curtas demais
+
+  // filtra eventos que contenham o termo
+  const encontrados = eventos.filter(ev =>
+    ev.eventos.some(txt => txt.toLowerCase().includes(termo))
+  );
+
+  // ordena resultados por ano (mais novos primeiro)
+  encontrados.sort((a, b) => b.ano - a.ano);
+
+  encontrados.forEach(ev => {
+    const li = document.createElement("li");
+    li.innerText = `${ev.eventos[0]} → ${ev.estacao} ${ev.dia}, Ano ${ev.ano}`;
+    li.onclick = () => {
+      irParaEvento(ev); // já usa tua função que leva direto à data
+      lista.innerHTML = ""; // fecha a lista após o clique
+      document.getElementById("busca").value = "";
+    };
+    lista.appendChild(li);
+  });
+
+  if (encontrados.length === 0) {
+    const li = document.createElement("li");
+    li.innerText = "Nenhum evento encontrado.";
+    lista.appendChild(li);
+  }
+});
+
 // Fecha modal
 function fecharModal() {
   document.getElementById("modal").style.display = "none";
@@ -326,3 +360,4 @@ document.addEventListener("DOMContentLoaded", () => {
   renderCalendario();
   renderDefinidores();
 });
+
