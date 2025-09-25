@@ -315,7 +315,6 @@ h1 {
 #busca-container {
   margin: 20px 0;
   width: 100%;
-  max-width: 600px;
   position: relative; /* mantém a lista colada ao input */
 }
 
@@ -359,3 +358,4 @@ h1 {
 #resultados-busca li:hover {
   background: #f0f0f0;
 }
+
