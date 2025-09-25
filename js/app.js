@@ -273,15 +273,23 @@ document.getElementById("busca").addEventListener("input", (e) => {
   encontrados.sort((a, b) => b.ano - a.ano);
 
   encontrados.forEach(ev => {
+  // pega apenas os textos que contêm o termo
+  const textosFiltrados = ev.eventos.filter(txt =>
+    txt.toLowerCase().includes(termo)
+  );
+
+  textosFiltrados.forEach(txt => {
     const li = document.createElement("li");
-    li.innerText = `${ev.eventos[0]} → ${ev.estacao} ${ev.dia}, Ano ${ev.ano}`;
+    li.innerText = `${txt} → ${ev.estacao} ${ev.dia}, Ano ${ev.ano}`;
     li.onclick = () => {
-      irParaEvento(ev); // já usa tua função que leva direto à data
-      lista.innerHTML = ""; // fecha a lista após o clique
+      irParaEvento(ev);
+      lista.innerHTML = "";
       document.getElementById("busca").value = "";
     };
     lista.appendChild(li);
   });
+});
+
 
   if (encontrados.length === 0) {
     const li = document.createElement("li");
@@ -353,11 +361,11 @@ document.addEventListener("keydown", (e) => {
   }
 });
 
-// 🔥 Inicializa somente depois do DOM estar pronto
 document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("estacao").value = estacaoAtual;
   document.getElementById("ano").value = anoAtual;
   renderCalendario();
   renderDefinidores();
 });
+
 
