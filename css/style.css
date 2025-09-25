@@ -244,8 +244,8 @@ h1 {
   padding: 10px;
   border: 1px solid #ddd;
   border-radius: 8px;
-  width: 40px;          /* ícone compacto */
-  max-height: 40px;     /* fechado por padrão */
+  width: 10px;          /* ícone compacto */
+  max-height: 10px;     /* fechado por padrão */
   overflow: hidden;
   cursor: pointer;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -381,6 +381,7 @@ h1 {
 #resultados-busca li:hover {
   background: #f0f0f0;
 }
+
 
 
 
