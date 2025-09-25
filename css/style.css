@@ -236,37 +236,60 @@ h1 {
     margin-top: 0;
     color: #3a8dde;
 }
-
 #legenda {
-  margin: 20px auto;
+  position: fixed;
+  top: 15px;
+  right: 15px;
   background: #fff;
-  padding: 15px;
+  padding: 10px;
   border: 1px solid #ddd;
   border-radius: 8px;
-  max-width: 500px;
+  width: 40px;          /* ícone compacto */
+  max-height: 40px;     /* fechado por padrão */
+  overflow: hidden;
+  cursor: pointer;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  align-text: center;
+  transition: all 0.3s ease;
+  z-index: 1500;
 }
 
-#legenda h3 {
-  margin: 0 0 10px;
-  font-size: 18px;
-  color: #333;
+#legenda:hover {
+  width: 260px;         /* expande na horizontal */
+  max-height: 300px;    /* expande na vertical */
+}
+
+#legenda .icone-info {
+  width: 20px;
+  height: 20px;
+  display: block;
+  margin: auto;
 }
 
 #legenda ul {
   list-style: none;
-  padding: 0;
+  padding: 10px 0 0;
   margin: 0;
 }
 
 #legenda li {
   margin: 6px 0;
-  font-size: 14px;
+  font-size: 13px;
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 6px;
 }
+
+.marcador {
+  display: inline-block;
+  width: 20px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+.marcador.estrela { color: gold; }
+.marcador.definidor { color: crimson; }
+.marcador.unico { color: black; }
+.marcador.lua { color: #3a8dde; }
 
 .marcador {
   display: inline-block;
@@ -358,5 +381,6 @@ h1 {
 #resultados-busca li:hover {
   background: #f0f0f0;
 }
+
 
 
