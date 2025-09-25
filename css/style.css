@@ -244,8 +244,8 @@ h1 {
   padding: 10px;
   border: 1px solid #ddd;
   border-radius: 8px;
-  width: 10px;          /* ícone compacto */
-  max-height: 10px;     /* fechado por padrão */
+  width: 20px;          /* ícone compacto */
+  max-height: 20px;     /* fechado por padrão */
   overflow: hidden;
   cursor: pointer;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -259,8 +259,8 @@ h1 {
 }
 
 .icone-info {
-  width: 8px;
-  height: 8px;
+  width: 15px;
+  height: 15px;
   display: block;
   margin: auto;
 }
