@@ -1204,6 +1204,8 @@ const eventos = [
       "Charlotte deposita 412 pc, 180 pp, 280 po",
       "Varis se encontra com Lyra e diáloga com ela após a missa",
       "Vésperus convence Boris à lhe dar uma caixa de peças de couro para vender na estrada."
+      "Freya chega à Cidade Taverna do Dragão Dormente e caminha à sua taverna.",
+      "Charlotte é questionada por dois aventureiros(?) sobre o sua presença na invasão e outros detalhes",
     ],
     comemorativa: false,
   },
@@ -1212,8 +1214,11 @@ const eventos = [
     estacao: "Verão",
     dia: 7,
     eventos: [
+      "Charlotte se despede de seu instrutor e se o grupo de Gwindach, Varis, Charlotte e Freya se juntam para comprar itens para uma aventura.",
       "Rafaela, Vésperus Luthier, Apis e Tilayra saem em aventura",
+      "O grupo para em direção a Queldor atrás de fazer duas missões",
       "Um eclipse solar acometa Aedrim",
+      "Gwindach, Varis, Charlotte e Freya são atacados durante o eclipse pelo que aparentam ser cultistas.",
       "Tilayra entra na floresta e a lobos atacam",
   	  "Durante a madrugada Vésperus Luthier e Rafaela tocam pela noite"
     ],
@@ -1225,8 +1230,9 @@ const eventos = [
     dia: 9,
     eventos: [
       "Os aventureiros  Apis, Tilayra, Vésperus, Rafaella e Jack seguem a viagem e durante a tarde são emboscados por goblins",
-      "Derrotando a emboscada eles verificam os estranhos atacantes e corpos"
+      "Derrotando a emboscada eles verificam os estranhos goblins, as armas que portavam e corpos"
     ],
     comemorativa: false,
   },
 ];
+
