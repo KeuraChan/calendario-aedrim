@@ -510,7 +510,6 @@ const eventos = [
       "Encontram besouros de fogo em uma área da floresta",
       "São emboscados por membros da companhia negra durante a noite",
       "Um dos dois batedores da companhia são mortos, enquanto o segundo é capturado",
-      "Ano 4899",
     ],
     comemorativa: false,
   },
@@ -1203,7 +1202,7 @@ const eventos = [
       "Charlotte  gasta 100 po para abrir uma conta no banco",
       "Charlotte deposita 412 pc, 180 pp, 280 po",
       "Varis se encontra com Lyra e diáloga com ela após a missa",
-      "Vésperus convence Boris à lhe dar uma caixa de peças de couro para vender na estrada."
+      "Vésperus convence Boris à lhe dar uma caixa de peças de couro para vender na estrada.",
       "Freya chega à Cidade Taverna do Dragão Dormente e caminha à sua taverna.",
       "Charlotte é questionada por dois aventureiros(?) sobre o sua presença na invasão e outros detalhes"
     ],
@@ -1235,5 +1234,6 @@ const eventos = [
     comemorativa: false,
   },
 ];
+
 
 
