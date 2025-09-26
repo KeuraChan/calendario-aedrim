@@ -1205,7 +1205,7 @@ const eventos = [
       "Varis se encontra com Lyra e diáloga com ela após a missa",
       "Vésperus convence Boris à lhe dar uma caixa de peças de couro para vender na estrada."
       "Freya chega à Cidade Taverna do Dragão Dormente e caminha à sua taverna.",
-      "Charlotte é questionada por dois aventureiros(?) sobre o sua presença na invasão e outros detalhes",
+      "Charlotte é questionada por dois aventureiros(?) sobre o sua presença na invasão e outros detalhes"
     ],
     comemorativa: false,
   },
@@ -1235,4 +1235,5 @@ const eventos = [
     comemorativa: false,
   },
 ];
+
 
