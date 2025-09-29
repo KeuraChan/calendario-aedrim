@@ -457,7 +457,7 @@ const eventos = [
   { ano: 4895, estacao: "Primavera", dia: 1, eventos: ["Desaparecimento de Maoridos Rhines;"], comemorativa: false, definidor: true },
   { ano: 4895, estacao: "Inverno", dia: 15, eventos: ["Morte da Rainha de Rubi, fim da guerra contra Companhia Negra",], comemorativa: false, definidor: true },
   { ano: 4900, estacao: "Primavera", dia: 64, eventos: ["Invasão Goblinóide à Dragão Dormente"],comemorativa: false,definidor: true },
-  { ano: 4900, estacao: "Verão", dia: 7, eventos: ["Um Eclipse recai son o céu de Aedrim após a metade do dia"],comemorativa: false,definidor: true },
+  { ano: 4900, estacao: "Verão", dia: 7, eventos: ["Um Eclipse recai sob Aedrim após o meio dia"],comemorativa: false,definidor: true },
 
   // LINHA DO TEMPO
   {
@@ -1251,6 +1251,7 @@ const eventos = [
     comemorativa: false,
   },
 ];
+
 
 
 
