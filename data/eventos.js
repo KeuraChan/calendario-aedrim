@@ -1229,11 +1229,29 @@ const eventos = [
     dia: 9,
     eventos: [
       "Os aventureiros  Apis, Tilayra, Vésperus, Rafaella e Jack seguem a viagem e durante a tarde são emboscados por goblins",
-      "Derrotando a emboscada eles verificam os estranhos goblins, as armas que portavam e corpos"
+      "Derrotando a emboscada eles verificam os estranhos goblins, as armas que portavam e corpos",
+      "A noite chega. Apis, Tilayra, Vésperus, Rafaella e Jack descansam pela noite",
+      "O grupo troca histórias de seus traumas e comidas favoritas."
+    ],
+    comemorativa: false,
+  },
+  {
+    ano: 4900,
+    estacao: "Verão",
+    dia: 10,
+    eventos: [
+      "Apis, Tilayra, Vésperus, Rafaella e Jack vem uma chuva no horizonte.",
+      "O grupo indo à Badür se encontra com uma estranha névoa azulada e decidem seguir com cautela.",
+      "Uma 'contadora de histórias' de olhos brancos e uma estranha lanterna de chamas azuis os encontra.",
+      "Vésperus Luthier e a estranha trocam histórias.",
+      "Seguindo pela chuva, Vésperus e Jack falham no teste, começando os sintomas de Gripe",
+      "Se hospedando em no celeiro de Joffrey na cidade de Templo de Pedra, o grupo é atacado por uma sombra onde Jack tem o braço quebrado e Tilayra perde o olho",
+      "Derrotando a sombra, o grupo é tratado no templo antes de seguirem viagem na manhã seguinte."
     ],
     comemorativa: false,
   },
 ];
+
 
 
 
