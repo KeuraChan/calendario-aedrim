@@ -1194,7 +1194,7 @@ const eventos = [
     eventos: [
       "Um cavaleiro Solitário passa primeiro por  Apis, Tilayra, Vésperus, Rafaella e Jack pela manhã e então pela tarde por Gwindach, Varis, Charlotte e Freya",
       "Um grupo de bandidos seguem Gwindach, Varis, Charlotte e Freya emboscando o grupo enquanto dormem e roubando todo seu ouro e 10 kg de comida.",
-      "Charlotte recebe um nível de exaustão por ficar sem água."
+      "Charlotte recebe um nível de exaustão por ficar sem água.",
     ],
     comemorativa: false,
   },
@@ -1226,14 +1226,15 @@ const eventos = [
       "Conversando com Durin, Charlotte e seu grupo descobrem sobre parte dos problemas da torre e que outro grupo entrou à frente deles.",
       "Amaldor Martelo de Pedra requisita a ajuda de Gwindach, Varis, Charlotte e Freya fechando um portal e coletando sais elementais, mas o portal se torna descontrolado.",
       "Gwindach, Varis, Charlotte e Freya  enfrentam os elementais com Varis quebrando suas costelas durante a luta.",
-      "Carlotte recebe uma bronca de seu guia espiritual e fala com seu mentor morto. Após a batalha.,"
+      "Carlotte recebe uma bronca de seu guia espiritual e fala com seu mentor morto. Após a batalha.",
       "Seguindo pela chuva, Vésperus e Jack falham no teste, começando os sintomas de Gripe",
       "Se hospedando em no celeiro de Joffrey na cidade de Templo de Pedra, o grupo é atacado por uma sombra onde Jack tem o braço quebrado e Tilayra perde o olho",
-      "Derrotando a sombra, o grupo é tratado no templo antes de seguirem viagem na manhã seguinte."
+      "Derrotando a sombra, o grupo é tratado no templo antes de seguirem viagem na manhã seguinte.",
     ],
     comemorativa: false,
   },
 ];
+
 
 
 
