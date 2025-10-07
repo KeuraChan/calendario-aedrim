@@ -1183,7 +1183,18 @@ const eventos = [
       "Um eclipse solar acometa Aedrim",
       "Gwindach, Varis, Charlotte e Freya são atacados durante o eclipse pelo que aparentam ser cultistas.",
       "Tilayra entra na floresta e a lobos atacam",
-  	  "Durante a madrugada Vésperus Luthier e Rafaela tocam pela noite"
+  	  "Durante a madrugada Vésperus Luthier toca junto de Rafaela pela noite"
+    ],
+    comemorativa: false,
+  },
+  {
+    ano: 4900,
+    estacao: "Verão",
+    dia: 8,
+    eventos: [
+      "Um cavaleiro Solitário passa primeiro por  Apis, Tilayra, Vésperus, Rafaella e Jack pela manhã e então pela tarde por Gwindach, Varis, Charlotte e Freya",
+      "Um grupo de bandidos seguem Gwindach, Varis, Charlotte e Freya emboscando o grupo enquanto dormem e roubando todo seu ouro e 10 kg de comida.",
+      "Charlotte recebe um nível de exaustão por ficar sem água."
     ],
     comemorativa: false,
   },
@@ -1192,10 +1203,12 @@ const eventos = [
     estacao: "Verão",
     dia: 9,
     eventos: [
+      "Gwindach, Varis, Charlotte e Freya despertam após o assalto, com o amuleto de Varis roubado e com menos comida eles aceleram pra cidade",
       "Os aventureiros  Apis, Tilayra, Vésperus, Rafaella e Jack seguem a viagem e durante a tarde são emboscados por goblins",
-      "Derrotando a emboscada eles verificam os estranhos goblins, as armas que portavam e corpos",
+      "Derrotando a emboscada o grupo de  Vésperus Luthier verificam os estranhos goblins, as armas que portavam e corpos na estrada. São do mesmo grupo de goblins do ataque",
+      "Varis ouve uma melodia no topo de um monte próximo da estrada, vendo pequenas lzues entre árvores e roxas. O grupo as ignora.",
       "A noite chega. Apis, Tilayra, Vésperus, Rafaella e Jack descansam pela noite",
-      "O grupo troca histórias de seus traumas e comidas favoritas."
+      "O grupo de Vésperus Luthier troca histórias de seus traumas e comidas favoritas.",
     ],
     comemorativa: false,
   },
@@ -1208,6 +1221,12 @@ const eventos = [
       "O grupo indo à Badür se encontra com uma estranha névoa azulada e decidem seguir com cautela.",
       "Uma 'contadora de histórias' de olhos brancos e uma estranha lanterna de chamas azuis os encontra.",
       "Vésperus Luthier e a estranha trocam histórias.",
+      "Seguindo a tarde toda, Gwindach, Varis, Charlotte e Freya chegam à Queldor no cair da tarde",
+      "O grupo de Varis encontra apresena suas identificações da guilda, e guardam eus cavalos deixando o sinete com a dona do estábulo dizendo que voltariam em breve",
+      "Conversando com Durin, Charlotte e seu grupo descobrem sobre parte dos problemas da torre e que outro grupo entrou à frente deles.",
+      "Amaldor Martelo de Pedra requisita a ajuda de Gwindach, Varis, Charlotte e Freya fechando um portal e coletando sais elementais, mas o portal se torna descontrolado.",
+      "Gwindach, Varis, Charlotte e Freya  enfrentam os elementais com Varis quebrando suas costelas durante a luta.",
+      "Carlotte recebe uma bronca de seu guia espiritual e fala com seu mentor morto. Após a batalha."
       "Seguindo pela chuva, Vésperus e Jack falham no teste, começando os sintomas de Gripe",
       "Se hospedando em no celeiro de Joffrey na cidade de Templo de Pedra, o grupo é atacado por uma sombra onde Jack tem o braço quebrado e Tilayra perde o olho",
       "Derrotando a sombra, o grupo é tratado no templo antes de seguirem viagem na manhã seguinte."
@@ -1215,6 +1234,7 @@ const eventos = [
     comemorativa: false,
   },
 ];
+
 
 
 
