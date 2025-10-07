@@ -1183,7 +1183,7 @@ const eventos = [
       "Um eclipse solar acometa Aedrim",
       "Gwindach, Varis, Charlotte e Freya são atacados durante o eclipse pelo que aparentam ser cultistas.",
       "Tilayra entra na floresta e a lobos atacam",
-  	  "Durante a madrugada Vésperus Luthier toca junto de Rafaela pela noite"
+  	  "Durante a madrugada Vésperus Luthier toca junto de Rafaela pela noite",
     ],
     comemorativa: false,
   },
@@ -1226,7 +1226,7 @@ const eventos = [
       "Conversando com Durin, Charlotte e seu grupo descobrem sobre parte dos problemas da torre e que outro grupo entrou à frente deles.",
       "Amaldor Martelo de Pedra requisita a ajuda de Gwindach, Varis, Charlotte e Freya fechando um portal e coletando sais elementais, mas o portal se torna descontrolado.",
       "Gwindach, Varis, Charlotte e Freya  enfrentam os elementais com Varis quebrando suas costelas durante a luta.",
-      "Carlotte recebe uma bronca de seu guia espiritual e fala com seu mentor morto. Após a batalha."
+      "Carlotte recebe uma bronca de seu guia espiritual e fala com seu mentor morto. Após a batalha.,"
       "Seguindo pela chuva, Vésperus e Jack falham no teste, começando os sintomas de Gripe",
       "Se hospedando em no celeiro de Joffrey na cidade de Templo de Pedra, o grupo é atacado por uma sombra onde Jack tem o braço quebrado e Tilayra perde o olho",
       "Derrotando a sombra, o grupo é tratado no templo antes de seguirem viagem na manhã seguinte."
@@ -1234,6 +1234,7 @@ const eventos = [
     comemorativa: false,
   },
 ];
+
 
 
 
