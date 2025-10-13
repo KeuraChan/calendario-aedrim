@@ -1233,7 +1233,19 @@ const eventos = [
     ],
     comemorativa: false,
   },
+  {
+    ano: 4900,
+    estacao: "Verão",
+    dia: 11,
+    eventos: [
+      "Apis, Tilayra, Vésperus, Rafaella e Jack saem de Templo de Pedra",
+      "Vésperus adquire um diamante com valor de 65 po na venda de peças de couro",
+      "O grupo descansa pela noite, Rafaella compartilha histórias com Tilayra, Jack simpatiza com ela."
+    ],
+    comemorativa: false
+  },
 ];
+
 
 
 
