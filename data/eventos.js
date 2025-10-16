@@ -1265,11 +1265,12 @@ const eventos = [
       "Desde o meio-dia Vésperus começou a ver campos pela estrada.",
       "2 horas antes do Pôr do Sol, Apis, Tilayra, Vésperus, Rafaella e Jack chegam em Madeira à Deriva.",
       "A cidade de Madeira à Derivaos os recebe com silêncio e desconfiança, pessoas correm e trancam suas portas.",
-      "Entrando na casa Nowell Graven, leiteiro da cidade, suas cinco filhas, esposa e sogra. Conversam sobre a cidade, perguntando-se se devem investigar o lugar.",
+      "Entrando na casa Nowell Graven, leiteiro da cidade, suas cinco filhas, esposa e sogra, Vésperus, Tilayra e Rafaella conversam sobre a cidade, perguntando-se se devem investigar o lugar.",
     ],
     comemorativa: false
   },
 ];
+
 
 
 
