@@ -162,7 +162,7 @@ h1 {
     color: #eee;
     width: 300px;
     max-width: 80%;
-    height: 99vh;
+    height: 95vh;
     padding: 20px;
     overflow-y: auto;
     box-shadow: 2px 0 8px rgba(0, 0, 0, 0.4);
@@ -379,6 +379,7 @@ h1 {
 #resultados-busca li:hover {
   background: #f0f0f0;
 }
+
 
 
 
