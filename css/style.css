@@ -38,10 +38,10 @@ h1 {
     justify-content: center;
 }
 
-#navegacao label {
+#navegacao label, #navegacao span {
     font-weight: bold;
-    color: #333;
     margin-right: 5px;
+    color: #fff;
 }
 
 #navegacao select,
@@ -378,10 +378,3 @@ h1 {
 #resultados-busca li:hover {
   background: #f0f0f0;
 }
-
-
-
-
-
-
-
