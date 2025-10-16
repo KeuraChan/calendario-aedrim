@@ -117,7 +117,6 @@ h1 {
 }
 
 /* Eventos dentro do dia */
-/* Eventos dentro do dia */
 .evento {
     display: block;
     width: 100%;
@@ -379,6 +378,7 @@ h1 {
 #resultados-busca li:hover {
   background: #f0f0f0;
 }
+
 
 
 
