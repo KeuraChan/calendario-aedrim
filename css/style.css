@@ -109,12 +109,12 @@ h1 {
     position: relative;
     cursor: pointer;
     background: #fff;
-    transition: transform 0.7s ease-in-out;
+    transition: transform 1s ease-in-out;
 }
 
 .dia:hover {
     background: #f7f7f7;
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 /* Eventos dentro do dia */
@@ -379,6 +379,7 @@ h1 {
 #resultados-busca li:hover {
   background: #f0f0f0;
 }
+
 
 
 
