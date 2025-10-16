@@ -1244,7 +1244,33 @@ const eventos = [
     ],
     comemorativa: false
   },
+  {
+    ano: 4900,
+    estacao: "Verão",
+    dia: 12,
+    eventos: [
+      "Apis caminha pela manhã buscando água para o grupo, retornando algumas horas depois com 7 litros de água que conseguiu carregar de um rio",
+      "Vespérus irá testar sua gripe por 2 dias, Jack por 3.",
+      "Apis, Tilayra, Vésperus, Rafaella e Jack caminha pela estrada onde são encurralados por Lacertílios Selvagens",
+      "O grupo se questiona sobre a emboscada e a presença de adagas estranhas nos lagartos.",
+    ],
+    comemorativa: false
+  },
+  {
+    ano: 4900,
+    estacao: "Verão",
+    dia: 13,
+    eventos: [
+      "Despertando, Apis, Tilayra, Vésperus, Rafaella e Jack voltam à caminhar",
+      "Desde o meio-dia Vésperus começou a ver campos pela estrada.",
+      "2 horas antes do Pôr do Sol, Apis, Tilayra, Vésperus, Rafaella e Jack chegam em Madeira à Deriva.",
+      "A cidade de Madeira à Derivaos os recebe com silêncio e desconfiança, pessoas correm e trancam suas portas.",
+      "Entrando na casa Nowell Graven, leiteiro da cidade, suas cinco filhas, esposa e sogra. Conversam sobre a cidade, perguntando-se se devem investigar o lugar.",
+    ],
+    comemorativa: false
+  },
 ];
+
 
 
 
