@@ -109,7 +109,7 @@ h1 {
     position: relative;
     cursor: pointer;
     background: #fff;
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.7s ease-in-out;
 }
 
 .dia:hover {
@@ -379,5 +379,6 @@ h1 {
 #resultados-busca li:hover {
   background: #f0f0f0;
 }
+
 
 
