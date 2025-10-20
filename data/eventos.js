@@ -1229,6 +1229,10 @@ const eventos = [
       "Carlotte recebe uma bronca de seu guia espiritual e fala com seu mentor morto. Após a batalha.",
       "Seguindo pela chuva, Vésperus e Jack falham no teste, começando os sintomas de Gripe",
       "Se hospedando em no celeiro de Joffrey na cidade de Templo de Pedra, o grupo é atacado por uma sombra onde Jack tem o braço quebrado e Tilayra perde o olho",
+      "No cair da noite e sem dinheiro o grupo Gwindach, Varis, Charlotte e Freya conversa com Amaldor Martelo de Pedra. Explicando sobre a razão do número de torres na cidade.",
+	    "Amaldor Martelo de Pedra sugere o grupo realizar o Desafio de Queda na taverna do Caldeirão de Cevo.",
+    	"Gwindach realiza e vence o Desafio de Queda (Osenniy vyzov), sem conhecido por Barriga de Pedra (Kamennyy zhivot)",
+	    "Conseguindo um quarto, o grupo de Gwindach, Varis, Charlotte e Freya se junto a Kot Calda de Prata dormindo à noite para enfrentar a Torre de Papel no amanhecer.",
       "Derrotando a sombra, o grupo é tratado no templo antes de seguirem viagem na manhã seguinte.",
     ],
     comemorativa: false,
@@ -1270,6 +1274,7 @@ const eventos = [
     comemorativa: false
   },
 ];
+
 
 
 
