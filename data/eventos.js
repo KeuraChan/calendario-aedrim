@@ -1295,7 +1295,8 @@ const eventos = [
 		"Vésperus ameaça Derek Desleigh com uma faca e o grupo adentra apressado a casa do prefeito 'Mogno' atrás de respostas",
 	],
     comemorativa: false
-];
+  };
+
 
 
 
