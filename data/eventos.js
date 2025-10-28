@@ -1290,7 +1290,7 @@ const eventos = [
   {
     ano: 4900,
     estacao: "Verão",
-    dia: 13,
+    dia: 14,
     eventos: [
 		"Vésperus ameaça Derek Desleigh com uma faca e o grupo adentra apressado a casa do prefeito 'Mogno' atrás de respostas",
 	],
