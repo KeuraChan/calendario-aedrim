@@ -405,6 +405,7 @@ const eventos = [
   { ano: 3707, estacao: "Verão", dia: 40, eventos: ["Abertura do Castelo das 9 Escolas em Akarajan"], comemorativa: false, definidor: true },
   { ano: 3995, estacao: "Primavera", dia: 88, eventos: ["13° Reinado Élfico"], comemorativa: false, definidor: true },
   { ano: 4020, estacao: "Inverno", dia: 29, eventos: ["Uma cidade surge do Forte do Dragão Dormente"], comemorativa: false, definidor: true },
+  {	ano: 4144, estacao: "Inverno", dia: 4, eventos: ["Um grupo de aventureiros chega à Laaterken enfrentando e derrotando o Lich Raz'kal após ele terminar o ritual."], comemorativa: false, definidor: true },
   { ano: 4157, estacao: "Primavera", dia: 15, eventos: ["Sexta Filha de Morgana"], comemorativa: false, definidor: true },
   { ano: 4295, estacao: "Primavera", dia: 63, eventos: ["14° Reinado Élfico"], comemorativa: false, definidor: true },
   { ano: 4400, estacao: "Verão", dia: 25, eventos: ["Amargo torna-se líder de Dragão Dormente"], comemorativa: false, definidor: true },
@@ -424,15 +425,15 @@ const eventos = [
   { ano: 4900, estacao: "Verão", dia: 7, eventos: ["Um Eclipse recai sob Aedrim após o meio dia"],comemorativa: false,definidor: true },
    
   // LINHA DO TEMPO
-  {
-	ano: 4144,
-    estacao: "Inverno",
-    dia: 4,
-    eventos: [
-      "Um grupo de aventureiros chega à Laaterken enfrentando e derrotando o Lich Raz'kal após ele terminar o ritual.",
-    ],
-    comemorativa: false,
-	definidor: true,
+  {	
+	  ano: 4144, 
+	  estacao: "Inverno", 
+	  dia: 4, 
+	  eventos: [
+		  "Jean-Phillipe, Faunus e o Paranóico Eco caminham para dentro de Laatarken, a vila arruinada anos atrás agora tomada por magia de ilusão e armadilhas enquanto Raz'kal preparava o ritual.",
+		  "Adentrando uma pequena casa os aventureiros enfrentam o Mago Raz'kal, ou pelo menos seu Simulacro, quando o homem termina seu ritual e mata a paladina Carla Risingsun."
+	  ], 
+	  comemorativa: false,
   },
   {
     ano: 4892,
@@ -1297,3 +1298,4 @@ const eventos = [
     comemorativa: false
   }
 ];
+
