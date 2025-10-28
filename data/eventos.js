@@ -432,6 +432,7 @@ const eventos = [
       "Um grupo de aventureiros chega à Laaterken enfrentando e derrotando o Lich Raz'kal após ele terminar o ritual.",
     ],
     comemorativa: false,
+	definidor: true,
   },
   {
     ano: 4892,
@@ -1295,6 +1296,7 @@ const eventos = [
 	],
     comemorativa: false
 ];
+
 
 
 
