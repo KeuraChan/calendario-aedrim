@@ -1268,12 +1268,25 @@ const eventos = [
       "Despertando, Apis, Tilayra, Vésperus, Rafaella e Jack voltam à caminhar",
       "Desde o meio-dia Vésperus começou a ver campos pela estrada.",
       "2 horas antes do Pôr do Sol, Apis, Tilayra, Vésperus, Rafaella e Jack chegam em Madeira à Deriva.",
-      "A cidade de Madeira à Derivaos os recebe com silêncio e desconfiança, pessoas correm e trancam suas portas.",
+      "A cidade de Madeira à Deriva os os recebe com silêncio e desconfiança, pessoas correm e trancam suas portas.",
       "Entrando na casa Nowell Graven, leiteiro da cidade, suas cinco filhas, esposa e sogra, Vésperus, Tilayra e Rafaella conversam sobre a cidade, perguntando-se se devem investigar o lugar.",
-    ],
+	  "Apis, Tilayra, Vésperus, Rafaella e Jack vão até a taverna da Casca d'Ouro. Deixando Jack no quarto enquanto exploram a cidade.",
+	  "Eles encontram o fazendeiro e criador de cavalos 'Kilian Gade', o Joaleiro e responsável pela casa de moedas 'Ull' e exploram e costureiro 'Myron Tweed' antes de chegar ao templo da Chanatae",
+	  "Comprando bandagens antes de voltarem pra taverna descobrindo do desaparecimento de Jack. Explorando a taverna, eles encontram o homem 'Olivero' que é logo derrotado após trair Vésperus.",
+	  "Tilayra desaparece durante a noite.",
+	],
     comemorativa: false
   },
+  {
+    ano: 4900,
+    estacao: "Verão",
+    dia: 13,
+    eventos: [
+		"Vésperus ameaça Derek Desleigh com uma faca e o grupo adentra apressado a casa do prefeito 'Mogno' atrás de respostas",
+	],
+    comemorativa: false
 ];
+
 
 
 
