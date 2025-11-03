@@ -1241,9 +1241,9 @@ const eventos = [
       "Seguindo pela chuva, Vésperus e Jack falham no teste, começando os sintomas de Gripe",
       "Se hospedando em no celeiro de Joffrey na cidade de Templo de Pedra, o grupo é atacado por uma sombra onde Jack tem o braço quebrado e Tilayra perde o olho",
       "No cair da noite e sem dinheiro o grupo Gwindach, Varis, Charlotte e Freya conversa com Amaldor Martelo de Pedra. Explicando sobre a razão do número de torres na cidade.",
-	    "Amaldor Martelo de Pedra sugere o grupo realizar o Desafio de Queda na taverna do Caldeirão de Cevo.",
-    	"Gwindach realiza e vence o Desafio de Queda (Osenniy vyzov), sem conhecido por Barriga de Pedra (Kamennyy zhivot)",
-	    "Conseguindo um quarto, o grupo de Gwindach, Varis, Charlotte e Freya se junto a Kot Calda de Prata dormindo à noite para enfrentar a Torre de Papel no amanhecer.",
+	  "Amaldor Martelo de Pedra sugere o grupo realizar o Desafio de Queda na taverna do Caldeirão de Cevo.",
+      "Gwindach realiza e vence o Desafio de Queda (Osenniy vyzov), sem conhecido por Barriga de Pedra (Kamennyy zhivot)",
+	  "Conseguindo um quarto, o grupo de Gwindach, Varis, Charlotte e Freya se junto a Kot Calda de Prata dormindo à noite para enfrentar a Torre de Papel no amanhecer.",
       "Derrotando a sombra, o grupo é tratado no templo antes de seguirem viagem na manhã seguinte.",
     ],
     comemorativa: false,
@@ -1266,6 +1266,9 @@ const eventos = [
     eventos: [
       "Apis caminha pela manhã buscando água para o grupo, retornando algumas horas depois com 7 litros de água que conseguiu carregar de um rio",
       "Vespérus irá testar sua gripe por 2 dias, Jack por 3.",
+	  "Gwindach, Varis, Charlotte, Freya e Kot caminham para Toree de Papel, adentrando suas paredes após conversar com Durin",
+	  "Após passarem pelo círculo de teleporte, Charlotte e Gwindach desaparecem enquanto Varis, Freya e Kot são atacados por elementais de água no quarto do arquimago.",
+	  "Derrotado o pequenos elementais, Varis transforma Kot em um elemental de água enquanto ele fracassa em seu teste de choque, permanecendo nesta forma até o 22º dia do Verão"
       "Apis, Tilayra, Vésperus, Rafaella e Jack caminha pela estrada onde são encurralados por Lacertílios Selvagens",
       "O grupo se questiona sobre a emboscada e a presença de adagas estranhas nos lagartos.",
     ],
@@ -1298,4 +1301,5 @@ const eventos = [
     comemorativa: false
   }
 ];
+
 
