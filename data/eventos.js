@@ -1268,7 +1268,7 @@ const eventos = [
       "Vespérus irá testar sua gripe por 2 dias, Jack por 3.",
 	  "Gwindach, Varis, Charlotte, Freya e Kot caminham para Toree de Papel, adentrando suas paredes após conversar com Durin",
 	  "Após passarem pelo círculo de teleporte, Charlotte e Gwindach desaparecem enquanto Varis, Freya e Kot são atacados por elementais de água no quarto do arquimago.",
-	  "Derrotado o pequenos elementais, Varis transforma Kot em um elemental de água enquanto ele fracassa em seu teste de choque, permanecendo nesta forma até o 22º dia do Verão"
+	  "Derrotado o pequenos elementais, Varis transforma Kot em um elemental de água enquanto ele fracassa em seu teste de choque, permanecendo nesta forma até o 22º dia do Verão",
       "Apis, Tilayra, Vésperus, Rafaella e Jack caminha pela estrada onde são encurralados por Lacertílios Selvagens",
       "O grupo se questiona sobre a emboscada e a presença de adagas estranhas nos lagartos.",
     ],
@@ -1301,5 +1301,6 @@ const eventos = [
     comemorativa: false
   }
 ];
+
 
 
