@@ -1297,10 +1297,19 @@ const eventos = [
     dia: 14,
     eventos: [
 		"Vésperus ameaça Derek Desleigh com uma faca e o grupo adentra apressado a casa do prefeito 'Mogno' atrás de respostas",
+		"Sem Tilayra ou Jack, o grupo se aproxima da pequena cabana próximo da casa do prefeito Mogno, os dois elfos recebem o grupo e batem a porta após darem informações vagas.",
+		"Disfarçado dentro da carroça, Luthier agora sai como um vendedor de sementes e caminha pela vila.",
+		"Rafaella e Apis caminham na carroça, tentando se desvenciliar do companheiro Sangue de Fogo enquanto o vendedor de sementes caminhou até a a clareira de Remné.",
+		"Remné comentou sobre os eventos na cidade 'Ações falam mais alto que palavras' e que quando a hora chegasse, retornasse.",
+		"Com as mensagens, Apis, Rafaella e Luthier exploram pouco mais a cidade, conversando com as pessoas na taverna da 'Serpente Dominhoca' e Luthier usa de 'Ler Pensamentos' na taverneira local.",
+		"Se separando Luthier vai até Casca d'Ouro e lê os pensamentos do taverneiro descobrindo sobre o porão da taverna, um pequeno alvoroço começa a se espalhar quando ele sai.",
+		"O nome de 'O Deus Reptil' aparece em sua mente enquanto Rafaella e Apis conversam com a viúva Vilma, comentando sobre o estado da cidade, sobre os clérigos e como ela está preocupada com o prefeito agora que os estranhos se mudaram. Também comenta sobre o ferreiro e um de seus vizinhos.",
+		"Se encontrando à frente do templo de Chanatae, Luthier, Apis e Rafaella planejam os próximos passos, enquanto verificam a disponibilidade de invadirem a taverna à noite."
 	],
     comemorativa: false
   }
 ];
+
 
 
 
