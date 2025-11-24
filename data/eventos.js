@@ -1304,11 +1304,14 @@ const eventos = [
 		"Com as mensagens, Apis, Rafaella e Luthier exploram pouco mais a cidade, conversando com as pessoas na taverna da 'Serpente Dominhoca' e Luthier usa de 'Ler Pensamentos' na taverneira local.",
 		"Se separando Luthier vai até Casca d'Ouro e lê os pensamentos do taverneiro descobrindo sobre o porão da taverna, um pequeno alvoroço começa a se espalhar quando ele sai.",
 		"O nome de 'O Deus Reptil' aparece em sua mente enquanto Rafaella e Apis conversam com a viúva Vilma, comentando sobre o estado da cidade, sobre os clérigos e como ela está preocupada com o prefeito agora que os estranhos se mudaram. Também comenta sobre o ferreiro e um de seus vizinhos.",
-		"Se encontrando à frente do templo de Chanatae, Luthier, Apis e Rafaella planejam os próximos passos, enquanto verificam a disponibilidade de invadirem a taverna à noite."
+		"Se encontrando à frente do templo de Chanatae, Luthier, Apis e Rafaella planejam os próximos passos, enquanto verificam a disponibilidade de invadirem a taverna à noite.",
+		"Luthier e Rafaella adentram o templo, encontrando a sacerdotisa Misha Devi, que logo  após os personagens a questionerem e invadirem seu quarto, ela corre enquanto os monges locais atacam os jogadores.",
+		"Luthier e Rafaella são levados para um lugar desconhecido, onde conseguem escapar, matando 3 Lacertílios que os prendiam após libertarem a si e a Tilayra. Se encontrando então em um labirinto de mármore.",
 	],
     comemorativa: false
   }
 ];
+
 
 
 
