@@ -1255,7 +1255,16 @@ const eventos = [
     eventos: [
       "Apis, Tilayra, Vésperus, Rafaella e Jack saem de Templo de Pedra",
       "Vésperus adquire um diamante com valor de 65 po na venda de peças de couro",
-      "O grupo descansa pela noite, Rafaella compartilha histórias com Tilayra, Jack simpatiza com ela."
+      "O grupo descansa pela noite, Rafaella compartilha histórias com Tilayra, Jack simpatiza com ela.",
+	  "Após passarem pelo círculo de teleporte, Charlotte e Gwindach desaparecem enquanto Varis, Freya e Kot são atacados por elementais de água no quarto do arquimago.",
+	  "Derrotado o pequenos elementais, Varis transforma Kot em um elemental de água enquanto ele fracassa em seu teste de choque, permanecendo nesta forma até o 22º dia do Verão",
+	  "Transformado em elemetal, superam Kot e seu novo grupo recuperam a primeira das jóias elementais.",
+	  "Apertando a runa vermelha, Kot, Varis e Freya conseguem adquirir o Rubi que logo se torna uma chave também.",
+	  "Enquanto seu grupo supera a torre, Charllote e Gwindach observam o plano dos raios e enfrentam um pequeno elemental de raios antes de aparecerem novamente na sala azul",
+	  "Kot, Varis e Freya saem da torre, tendo Kot quase desintegrado por Durin ao ver o que ele se tornou",
+	  "Retornando para a torre o grupo se dividiu, Kot, Varis e Freya enfrentam a sala do vento enquanto Gwindach e Charlotte exploravam a sala de terra.",
+	  "Quase engolida por elementais, Charlotte e Gwindach golpeiam os pilares enquanto a batalha começa",
+	  "Com uma maré de azar, o grupo enfrenta a armadura animada onde Duas bolas de fogo são engolidas por Kot em sua forma elemental, encerrando sua vida",		
     ],
     comemorativa: false
   },
@@ -1267,8 +1276,6 @@ const eventos = [
       "Apis caminha pela manhã buscando água para o grupo, retornando algumas horas depois com 7 litros de água que conseguiu carregar de um rio",
       "Vespérus irá testar sua gripe por 2 dias, Jack por 3.",
 	  "Gwindach, Varis, Charlotte, Freya e Kot caminham para Toree de Papel, adentrando suas paredes após conversar com Durin",
-	  "Após passarem pelo círculo de teleporte, Charlotte e Gwindach desaparecem enquanto Varis, Freya e Kot são atacados por elementais de água no quarto do arquimago.",
-	  "Derrotado o pequenos elementais, Varis transforma Kot em um elemental de água enquanto ele fracassa em seu teste de choque, permanecendo nesta forma até o 22º dia do Verão",
       "Apis, Tilayra, Vésperus, Rafaella e Jack caminha pela estrada onde são encurralados por Lacertílios Selvagens",
       "O grupo se questiona sobre a emboscada e a presença de adagas estranhas nos lagartos.",
     ],
@@ -1311,6 +1318,7 @@ const eventos = [
     comemorativa: false
   }
 ];
+
 
 
 
