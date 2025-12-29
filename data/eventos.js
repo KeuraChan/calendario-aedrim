@@ -1267,7 +1267,7 @@ const eventos = [
 	  "Quase engolida por elementais, Charlotte e Gwindach golpeiam os pilares enquanto a batalha começa",
 	  "Com uma maré de azar, o grupo enfrenta a armadura animada onde Duas bolas de fogo são engolidas por Kot em sua forma elemental, encerrando sua vida",
 	  "Jones é arrastado para fora do plano dos raios, de lá, o aventureiro encontrou o grupo onde encontrou o grupo de Varis e Freya.",
-	  "Se juntando por objetivo em comum, Freya, Jones encontram, pela runa verde, Charlotte e Gwindach lutando contra um verme de pedra,
+	  "Se juntando por objetivo em comum, Freya, Jones encontram, pela runa verde, Charlotte e Gwindach lutando contra um verme de pedra",
 	  "O grupo derrotou o verme e, após um descanso, eles se dirigem às profundezas da torre onde enfrentam elementais de raio onde, pela magia caótica, invocam um uniórnio que fala um pouco sobre a torre.",
     ],
     comemorativa: false
@@ -1322,6 +1322,7 @@ const eventos = [
     comemorativa: false
   }
 ];
+
 
 
 
