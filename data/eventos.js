@@ -1270,7 +1270,7 @@ const eventos = [
     "Com uma maré de azar, o grupo enfrenta uma armadura animada, onde duas bolas de fogo são engolidas por Kot em sua forma elemental, encerrando sua vida.",
     "Jones é arrastado para fora do Plano dos Raios e, de lá, encontra o grupo de Varis e Freya.",
     "Unidos por um objetivo em comum, Freya e Jones encontram, pela runa verde, Charlotte e Gwindach lutando contra um verme de pedra.",
-    "O grupo derrota o verme e, após um descanso, dirige-se às profundezas da torre, onde enfrenta elementais de raio e, por meio de magia caótica, invoca um unicórnio que fala um pouco sobre a torre."
+    "O grupo derrota o verme e, após um descanso, dirige-se às profundezas da torre, onde enfrenta elementais de raio e, com uma de suas magias se tornando caótica, invoca um unicórnio que fala um pouco sobre a torre."
   ],
   comemorativa: false
 },
@@ -1324,6 +1324,7 @@ const eventos = [
   comemorativa: false
 }
 ];
+
 
 
 
