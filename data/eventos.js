@@ -1220,6 +1220,7 @@ const eventos = [
       "Varis ouve uma melodia no topo de um monte próximo da estrada, vendo pequenas lzues entre árvores e roxas. O grupo as ignora.",
       "A noite chega. Apis, Tilayra, Vésperus, Rafaella e Jack descansam pela noite",
       "O grupo de Vésperus Luthier troca histórias de seus traumas e comidas favoritas.",
+	  "Jones, chega à Queldor afim de buscar um tomo dentro da torre, porém sua sorte o arrastou para o Plano dos Raios. Onde teve de sobreviver por 3 dias.",
     ],
     comemorativa: false,
   },
@@ -1264,7 +1265,10 @@ const eventos = [
 	  "Kot, Varis e Freya saem da torre, tendo Kot quase desintegrado por Durin ao ver o que ele se tornou",
 	  "Retornando para a torre o grupo se dividiu, Kot, Varis e Freya enfrentam a sala do vento enquanto Gwindach e Charlotte exploravam a sala de terra.",
 	  "Quase engolida por elementais, Charlotte e Gwindach golpeiam os pilares enquanto a batalha começa",
-	  "Com uma maré de azar, o grupo enfrenta a armadura animada onde Duas bolas de fogo são engolidas por Kot em sua forma elemental, encerrando sua vida",		
+	  "Com uma maré de azar, o grupo enfrenta a armadura animada onde Duas bolas de fogo são engolidas por Kot em sua forma elemental, encerrando sua vida",
+	  "Jones é arrastado para fora do plano dos raios, de lá, o aventureiro encontrou o grupo onde encontrou o grupo de Varis e Freya.",
+	  "Se juntando por objetivo em comum, Freya, Jones encontram, pela runa verde, Charlotte e Gwindach lutando contra um verme de pedra,
+	  "O grupo derrotou o verme e, após um descanso, eles se dirigem às profundezas da torre onde enfrentam elementais de raio onde, pela magia caótica, invocam um uniórnio que fala um pouco sobre a torre.",
     ],
     comemorativa: false
   },
@@ -1318,6 +1322,7 @@ const eventos = [
     comemorativa: false
   }
 ];
+
 
 
 
