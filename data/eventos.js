@@ -1115,213 +1115,216 @@ const eventos = [
     comemorativa: false,
   },
   {
-    ano: 4900,
-    estacao: "Primavera",
-    dia: 86,
-    eventos: [
-      "Rafaella sai em missão resgatar uma padeiro em um cemitério de espadas. Falhando e adquirindo seu 2° ferimento ficando ferida por 10 dias.",
-    ],
-    comemorativa: false,
+  ano: 4900,
+  estacao: "Primavera",
+  dia: 86,
+  eventos: [
+    "Rafaella sai em missão para resgatar um padeiro em um Cemitério de Espadas. Falha na missão e adquire seu 2º ferimento, ficando ferida por 10 dias."
+  ],
+  comemorativa: false,
+},
+{
+  ano: 4900,
+  estacao: "Verão",
+  dia: 1,
+  eventos: [
+    "Chegada de Apis à Dragão Dormente, encontrando Tilayra. Ambos recebem uma missão de Amargo para buscar um nobre desaparecido."
+  ],
+  comemorativa: false,
+},
+{
+  ano: 4900,
+  estacao: "Verão",
+  dia: 2,
+  eventos: [
+    "Chista retorna de sua busca por Cavalos Desaparecidos (Animais Perdidos, com resultados: 16, 9 e 4)."
+  ],
+  comemorativa: false,
+},
+{
+  ano: 4900,
+  estacao: "Verão",
+  dia: 3,
+  eventos: [
+    "Vésperus termina sua atividade de trabalho (tocando na Taverna do Dragão Dormente), recebendo 25 po com os custos pagos."
+  ],
+  comemorativa: false,
+},
+{
+  ano: 4900,
+  estacao: "Verão",
+  dia: 4,
+  eventos: [
+    "Gwindach termina seu treinamento, obtendo maestria em Glaives: 'Esmagar'.",
+    "Apis e Tilayra resgatam Varis dos sequestradores."
+  ],
+  comemorativa: false,
+},
+{
+  ano: 4900,
+  estacao: "Verão",
+  dia: 5,
+  eventos: [
+    "Rafaella se recupera dos ferimentos."
+  ],
+  comemorativa: false,
+},
+{
+  ano: 4900,
+  estacao: "Verão",
+  dia: 6,
+  eventos: [
+    "Apis, Tilayra e Varis retornam à Dragão Dormente, onde Apis e Tilayra se alistam na guilda.",
+    "Charlotte interrompe seu treino (23 dias decorridos).",
+    "Charlotte gasta 100 po para abrir uma conta no banco.",
+    "Charlotte deposita 412 pc, 180 pp e 280 po.",
+    "Varis se encontra com Lyra e dialoga com ela após a missa.",
+    "Vésperus convence Boris a lhe dar uma caixa de peças de couro para vender na estrada.",
+    "Freya chega à Cidade-Taverna do Dragão Dormente e caminha até sua taverna.",
+    "Charlotte é questionada por dois aventureiros sobre sua presença na invasão e outros detalhes."
+  ],
+  comemorativa: false,
+},
+{
+  ano: 4900,
+  estacao: "Verão",
+  dia: 7,
+  eventos: [
+    "Charlotte se despede de seu instrutor, e o grupo de Gwindach, Varis, Charlotte e Freya se reúne para comprar itens para uma aventura.",
+    "Rafaella, Vésperus Luthier, Apis e Tilayra partem em aventura.",
+    "O grupo segue em direção a Queldor para realizar duas missões.",
+    "Um eclipse solar acomete Aedrim.",
+    "Gwindach, Varis, Charlotte e Freya são atacados durante o eclipse por indivíduos que aparentam ser cultistas.",
+    "Tilayra entra na floresta e é atacada por lobos.",
+    "Durante a madrugada, Vésperus Luthier toca junto de Rafaella."
+  ],
+  comemorativa: false,
+},
+{
+  ano: 4900,
+  estacao: "Verão",
+  dia: 8,
+  eventos: [
+    "Um cavaleiro solitário passa pela manhã por Apis, Tilayra, Vésperus, Rafaella e Jack, e à tarde por Gwindach, Varis, Charlotte e Freya.",
+    "Um grupo de bandidos segue Gwindach, Varis, Charlotte e Freya, emboscando-os enquanto dormem e roubando todo o ouro e 10 kg de comida.",
+    "Charlotte recebe um nível de exaustão por ficar sem água."
+  ],
+  comemorativa: false,
+},
+{
+  ano: 4900,
+  estacao: "Verão",
+  dia: 9,
+  eventos: [
+    "Gwindach, Varis, Charlotte e Freya despertam após o assalto; com o amuleto de Varis roubado e menos comida, aceleram a viagem até a cidade.",
+    "Apis, Tilayra, Vésperus, Rafaella e Jack seguem viagem e, durante a tarde, são emboscados por goblins.",
+    "Após derrotarem a emboscada, o grupo de Vésperus Luthier verifica os estranhos goblins, suas armas e os corpos na estrada, identificando-os como do mesmo grupo do ataque.",
+    "Varis ouve uma melodia no topo de um monte próximo da estrada, vendo pequenas luzes roxas entre as árvores. O grupo as ignora.",
+    "A noite chega, e Apis, Tilayra, Vésperus, Rafaella e Jack descansam.",
+    "O grupo de Vésperus Luthier troca histórias sobre seus traumas e comidas favoritas.",
+    "Jones chega a Queldor para buscar um tomo dentro da torre, porém sua sorte o arrasta para o Plano dos Raios, onde sobrevive por três dias."
+  ],
+  comemorativa: false,
+},
+{
+  ano: 4900,
+  estacao: "Verão",
+  dia: 10,
+  eventos: [
+	    "Apis, Tilayra, Vésperus, Rafaella e Jack veem uma chuva no horizonte.",
+	    "O grupo, indo para Badür, encontra uma estranha névoa azulada e decide seguir com cautela.",
+	    "Uma contadora de histórias, de olhos brancos e portando uma lanterna de chamas azuis, os encontra.",
+	    "Vésperus Luthier e a estranha trocam histórias.",
+	    "Após seguirem a tarde inteira, Gwindach, Varis, Charlotte e Freya chegam a Queldor ao cair da tarde.",
+	    "O grupo de Varis apresenta suas identificações da guilda e guarda seus cavalos, deixando o sinete com a dona do estábulo.",
+	    "Conversando com Durin, Charlotte e o grupo descobrem parte dos problemas da torre e que outro grupo entrou antes deles.",
+	    "Amaldor Martelo de Pedra requisita a ajuda do grupo para fechar um portal e coletar sais elementais, mas o portal se torna descontrolado.",
+	    "Gwindach, Varis, Charlotte e Freya enfrentam os elementais, com Varis quebrando as costelas durante a luta.",
+	    "Charlotte recebe uma bronca de seu guia espiritual e conversa com seu mentor morto após a batalha.",
+	    "Seguindo sob a chuva, Vésperus e Jack falham no teste, iniciando os sintomas de gripe.",
+	    "Hospedados em um celeiro de Joffrey, na cidade de Templo de Pedra, o grupo é atacado por uma sombra; Jack tem o braço quebrado e Tilayra perde um olho.",
+	    "Sem dinheiro, o grupo conversa com Amaldor Martelo de Pedra, que explica a razão do número de torres na cidade.",
+	    "Amaldor sugere que o grupo realize o Desafio de Queda na taverna do Caldeirão de Cevo.",
+	    "Gwindach realiza e vence o Desafio de Queda (Osenniy Vyzov), ficando conhecido como Barriga de Pedra (Kamennyy Zhivot).",
+	    "Conseguindo um quarto, o grupo se junta a Kot Calda de Prata e dorme para enfrentar a Torre de Papel ao amanhecer.",
+	    "Após derrotarem a sombra, o grupo é tratado no templo antes de seguir viagem na manhã seguinte."
+	  ],
+  comemorativa: false,
   },
   {
-    ano: 4900,
-    estacao: "Verão",
-    dia: 1,
-    eventos: [
-      "Chegada de  Apis à Dragão Dormente, encontrando Tilayra, ambos recebem uma missão de Amargo para buscar o nobre desaparecido.",
-    ],
-    comemorativa: false,
-  },
-  {
-    ano: 4900,
-    estacao: "Verão",
-    dia: 2,
-    eventos: [
-      "Chista retorna de sua busca por Cavalos Desaparecidos  (Animais Perdidos com resultados: 16, 9, 4);",
-    ],
-    comemorativa: false,
-  },
-  {
-    ano: 4900,
-    estacao: "Verão",
-    dia: 3,
-    eventos: [
-      "Vésperus termina a atividade de trabalho (Tocando na taverna do dragão dormente) Recebendo (25 po + custos pagos)",
-    ],
-    comemorativa: false,
-  },
-  {
-    ano: 4900,
-    estacao: "Verão",
-    dia: 4,
-    eventos: [
-      "Gwindach termina seu treinamento, obtendo maestria em Glaives: 'Esmagar'",
-      "Apis, Tilayra resgatam  Varis dos sequestradores",
-    ],
-    comemorativa: false,
-  },
-  {
-    ano: 4900,
-    estacao: "Verão",
-    dia: 5,
-    eventos: ["Rafaella se recupera dos ferimentos"],
-    comemorativa: false,
-  },
-  {
-    ano: 4900,
-    estacao: "Verão",
-    dia: 6,
-    eventos: [
-      "Apis Tilayra e Varis retornam à Dragão Dormente onde Apis e Tilayra se alistam para a guilda",
-      "Charlotte Interrompe seu treino (23 dias decorridos)",
-      "Charlotte  gasta 100 po para abrir uma conta no banco",
-      "Charlotte deposita 412 pc, 180 pp, 280 po",
-      "Varis se encontra com Lyra e diáloga com ela após a missa",
-      "Vésperus convence Boris à lhe dar uma caixa de peças de couro para vender na estrada.",
-      "Freya chega à Cidade Taverna do Dragão Dormente e caminha à sua taverna.",
-      "Charlotte é questionada por dois aventureiros(?) sobre o sua presença na invasão e outros detalhes"
-    ],
-    comemorativa: false,
-  },
-  {
-    ano: 4900,
-    estacao: "Verão",
-    dia: 7,
-    eventos: [
-      "Charlotte se despede de seu instrutor e se o grupo de Gwindach, Varis, Charlotte e Freya se juntam para comprar itens para uma aventura.",
-      "Rafaela, Vésperus Luthier, Apis e Tilayra saem em aventura",
-      "O grupo para em direção a Queldor atrás de fazer duas missões",
-      "Um eclipse solar acometa Aedrim",
-      "Gwindach, Varis, Charlotte e Freya são atacados durante o eclipse pelo que aparentam ser cultistas.",
-      "Tilayra entra na floresta e a lobos atacam",
-  	  "Durante a madrugada Vésperus Luthier toca junto de Rafaela pela noite",
-    ],
-    comemorativa: false,
-  },
-  {
-    ano: 4900,
-    estacao: "Verão",
-    dia: 8,
-    eventos: [
-      "Um cavaleiro Solitário passa primeiro por  Apis, Tilayra, Vésperus, Rafaella e Jack pela manhã e então pela tarde por Gwindach, Varis, Charlotte e Freya",
-      "Um grupo de bandidos seguem Gwindach, Varis, Charlotte e Freya emboscando o grupo enquanto dormem e roubando todo seu ouro e 10 kg de comida.",
-      "Charlotte recebe um nível de exaustão por ficar sem água.",
-    ],
-    comemorativa: false,
-  },
-  {
-    ano: 4900,
-    estacao: "Verão",
-    dia: 9,
-    eventos: [
-      "Gwindach, Varis, Charlotte e Freya despertam após o assalto, com o amuleto de Varis roubado e com menos comida eles aceleram pra cidade",
-      "Os aventureiros  Apis, Tilayra, Vésperus, Rafaella e Jack seguem a viagem e durante a tarde são emboscados por goblins",
-      "Derrotando a emboscada o grupo de  Vésperus Luthier verificam os estranhos goblins, as armas que portavam e corpos na estrada. São do mesmo grupo de goblins do ataque",
-      "Varis ouve uma melodia no topo de um monte próximo da estrada, vendo pequenas lzues entre árvores e roxas. O grupo as ignora.",
-      "A noite chega. Apis, Tilayra, Vésperus, Rafaella e Jack descansam pela noite",
-      "O grupo de Vésperus Luthier troca histórias de seus traumas e comidas favoritas.",
-	  "Jones, chega à Queldor afim de buscar um tomo dentro da torre, porém sua sorte o arrastou para o Plano dos Raios. Onde teve de sobreviver por 3 dias.",
-    ],
-    comemorativa: false,
-  },
-  {
-    ano: 4900,
-    estacao: "Verão",
-    dia: 10,
-    eventos: [
-      "Apis, Tilayra, Vésperus, Rafaella e Jack vem uma chuva no horizonte.",
-      "O grupo indo à Badür se encontra com uma estranha névoa azulada e decidem seguir com cautela.",
-      "Uma 'contadora de histórias' de olhos brancos e uma estranha lanterna de chamas azuis os encontra.",
-      "Vésperus Luthier e a estranha trocam histórias.",
-      "Seguindo a tarde toda, Gwindach, Varis, Charlotte e Freya chegam à Queldor no cair da tarde",
-      "O grupo de Varis encontra apresena suas identificações da guilda, e guardam eus cavalos deixando o sinete com a dona do estábulo dizendo que voltariam em breve",
-      "Conversando com Durin, Charlotte e seu grupo descobrem sobre parte dos problemas da torre e que outro grupo entrou à frente deles.",
-      "Amaldor Martelo de Pedra requisita a ajuda de Gwindach, Varis, Charlotte e Freya fechando um portal e coletando sais elementais, mas o portal se torna descontrolado.",
-      "Gwindach, Varis, Charlotte e Freya  enfrentam os elementais com Varis quebrando suas costelas durante a luta.",
-      "Carlotte recebe uma bronca de seu guia espiritual e fala com seu mentor morto. Após a batalha.",
-      "Seguindo pela chuva, Vésperus e Jack falham no teste, começando os sintomas de Gripe",
-      "Se hospedando em no celeiro de Joffrey na cidade de Templo de Pedra, o grupo é atacado por uma sombra onde Jack tem o braço quebrado e Tilayra perde o olho",
-      "No cair da noite e sem dinheiro o grupo Gwindach, Varis, Charlotte e Freya conversa com Amaldor Martelo de Pedra. Explicando sobre a razão do número de torres na cidade.",
-	  "Amaldor Martelo de Pedra sugere o grupo realizar o Desafio de Queda na taverna do Caldeirão de Cevo.",
-      "Gwindach realiza e vence o Desafio de Queda (Osenniy vyzov), sem conhecido por Barriga de Pedra (Kamennyy zhivot)",
-	  "Conseguindo um quarto, o grupo de Gwindach, Varis, Charlotte e Freya se junto a Kot Calda de Prata dormindo à noite para enfrentar a Torre de Papel no amanhecer.",
-      "Derrotando a sombra, o grupo é tratado no templo antes de seguirem viagem na manhã seguinte.",
-    ],
-    comemorativa: false,
-  },
-  {
-    ano: 4900,
-    estacao: "Verão",
-    dia: 11,
-    eventos: [
-      "Apis, Tilayra, Vésperus, Rafaella e Jack saem de Templo de Pedra",
-      "Vésperus adquire um diamante com valor de 65 po na venda de peças de couro",
-      "O grupo descansa pela noite, Rafaella compartilha histórias com Tilayra, Jack simpatiza com ela.",
-	  "Após passarem pelo círculo de teleporte, Charlotte e Gwindach desaparecem enquanto Varis, Freya e Kot são atacados por elementais de água no quarto do arquimago.",
-	  "Derrotado o pequenos elementais, Varis transforma Kot em um elemental de água enquanto ele fracassa em seu teste de choque, permanecendo nesta forma até o 22º dia do Verão",
-	  "Transformado em elemetal, superam Kot e seu novo grupo recuperam a primeira das jóias elementais.",
-	  "Apertando a runa vermelha, Kot, Varis e Freya conseguem adquirir o Rubi que logo se torna uma chave também.",
-	  "Enquanto seu grupo supera a torre, Charllote e Gwindach observam o plano dos raios e enfrentam um pequeno elemental de raios antes de aparecerem novamente na sala azul",
-	  "Kot, Varis e Freya saem da torre, tendo Kot quase desintegrado por Durin ao ver o que ele se tornou",
-	  "Retornando para a torre o grupo se dividiu, Kot, Varis e Freya enfrentam a sala do vento enquanto Gwindach e Charlotte exploravam a sala de terra.",
-	  "Quase engolida por elementais, Charlotte e Gwindach golpeiam os pilares enquanto a batalha começa",
-	  "Com uma maré de azar, o grupo enfrenta a armadura animada onde Duas bolas de fogo são engolidas por Kot em sua forma elemental, encerrando sua vida",
-	  "Jones é arrastado para fora do plano dos raios, de lá, o aventureiro encontrou o grupo onde encontrou o grupo de Varis e Freya.",
-	  "Se juntando por objetivo em comum, Freya, Jones encontram, pela runa verde, Charlotte e Gwindach lutando contra um verme de pedra",
-	  "O grupo derrotou o verme e, após um descanso, eles se dirigem às profundezas da torre onde enfrentam elementais de raio onde, pela magia caótica, invocam um uniórnio que fala um pouco sobre a torre.",
-    ],
-    comemorativa: false
-  },
-  {
-    ano: 4900,
-    estacao: "Verão",
-    dia: 12,
-    eventos: [
-      "Apis caminha pela manhã buscando água para o grupo, retornando algumas horas depois com 7 litros de água que conseguiu carregar de um rio",
-      "Vespérus irá testar sua gripe por 2 dias, Jack por 3.",
-	  "Gwindach, Varis, Charlotte, Freya e Kot caminham para Toree de Papel, adentrando suas paredes após conversar com Durin",
-      "Apis, Tilayra, Vésperus, Rafaella e Jack caminha pela estrada onde são encurralados por Lacertílios Selvagens",
-      "O grupo se questiona sobre a emboscada e a presença de adagas estranhas nos lagartos.",
-    ],
-    comemorativa: false
-  },
-  {
-    ano: 4900,
-    estacao: "Verão",
-    dia: 13,
-    eventos: [
-      "Despertando, Apis, Tilayra, Vésperus, Rafaella e Jack voltam à caminhar",
-      "Desde o meio-dia Vésperus começou a ver campos pela estrada.",
-      "2 horas antes do Pôr do Sol, Apis, Tilayra, Vésperus, Rafaella e Jack chegam em Madeira à Deriva.",
-      "A cidade de Madeira à Deriva os os recebe com silêncio e desconfiança, pessoas correm e trancam suas portas.",
-      "Entrando na casa Nowell Graven, leiteiro da cidade, suas cinco filhas, esposa e sogra, Vésperus, Tilayra e Rafaella conversam sobre a cidade, perguntando-se se devem investigar o lugar.",
-	  "Apis, Tilayra, Vésperus, Rafaella e Jack vão até a taverna da Casca d'Ouro. Deixando Jack no quarto enquanto exploram a cidade.",
-	  "Eles encontram o fazendeiro e criador de cavalos 'Kilian Gade', o Joaleiro e responsável pela casa de moedas 'Ull' e exploram e costureiro 'Myron Tweed' antes de chegar ao templo da Chanatae",
-	  "Comprando bandagens antes de voltarem pra taverna descobrindo do desaparecimento de Jack. Explorando a taverna, eles encontram o homem 'Olivero' que é logo derrotado após trair Vésperus.",
-	  "Tilayra desaparece durante a noite.",
-	],
-    comemorativa: false
-  },
-  {
-    ano: 4900,
-    estacao: "Verão",
-    dia: 14,
-    eventos: [
-		"Vésperus ameaça Derek Desleigh com uma faca e o grupo adentra apressado a casa do prefeito 'Mogno' atrás de respostas",
-		"Sem Tilayra ou Jack, o grupo se aproxima da pequena cabana próximo da casa do prefeito Mogno, os dois elfos recebem o grupo e batem a porta após darem informações vagas.",
-		"Disfarçado dentro da carroça, Luthier agora sai como um vendedor de sementes e caminha pela vila.",
-		"Rafaella e Apis caminham na carroça, tentando se desvenciliar do companheiro Sangue de Fogo enquanto o vendedor de sementes caminhou até a a clareira de Remné.",
-		"Remné comentou sobre os eventos na cidade 'Ações falam mais alto que palavras' e que quando a hora chegasse, retornasse.",
-		"Com as mensagens, Apis, Rafaella e Luthier exploram pouco mais a cidade, conversando com as pessoas na taverna da 'Serpente Dominhoca' e Luthier usa de 'Ler Pensamentos' na taverneira local.",
-		"Se separando Luthier vai até Casca d'Ouro e lê os pensamentos do taverneiro descobrindo sobre o porão da taverna, um pequeno alvoroço começa a se espalhar quando ele sai.",
-		"O nome de 'O Deus Reptil' aparece em sua mente enquanto Rafaella e Apis conversam com a viúva Vilma, comentando sobre o estado da cidade, sobre os clérigos e como ela está preocupada com o prefeito agora que os estranhos se mudaram. Também comenta sobre o ferreiro e um de seus vizinhos.",
-		"Se encontrando à frente do templo de Chanatae, Luthier, Apis e Rafaella planejam os próximos passos, enquanto verificam a disponibilidade de invadirem a taverna à noite.",
-		"Luthier e Rafaella adentram o templo, encontrando a sacerdotisa Misha Devi, que logo  após os personagens a questionerem e invadirem seu quarto, ela corre enquanto os monges locais atacam os jogadores.",
-		"Luthier e Rafaella são levados para um lugar desconhecido, onde conseguem escapar, matando 3 Lacertílios que os prendiam após libertarem a si e a Tilayra. Se encontrando então em um labirinto de mármore.",
-	],
-    comemorativa: false
-  }
+  ano: 4900,
+  estacao: "Verão",
+  dia: 11,
+  eventos: [
+    "Apis, Tilayra, Vésperus, Rafaella e Jack saem de Templo de Pedra.",
+    "Vésperus adquire um diamante no valor de 65 po com a venda de peças de couro.",
+    "O grupo descansa durante a noite; Rafaella compartilha histórias com Tilayra, e Jack simpatiza com ela.",
+    "Após passarem pelo círculo de teleporte, Charlotte e Gwindach desaparecem, enquanto Varis, Freya e Kot são atacados por elementais de água no quarto do arquimago.",
+    "Derrotados os pequenos elementais, Varis transforma Kot em um elemental de água após ele fracassar no teste de choque, permanecendo nessa forma até o 22º dia do Verão.",
+    "Transformado em elemental, Kot e seu novo grupo recuperam a primeira das joias elementais.",
+    "Ao apertar a runa vermelha, Kot, Varis e Freya conseguem adquirir o Rubi, que também se torna uma chave.",
+    "Enquanto o grupo supera a torre, Charlotte e Gwindach observam o Plano dos Raios e enfrentam um pequeno elemental de raio antes de reaparecerem na sala azul.",
+    "Kot, Varis e Freya saem da torre, com Kot quase sendo desintegrado por Durin ao ver no que ele se tornou.",
+    "Ao retornarem para a torre, o grupo se divide: Kot, Varis e Freya enfrentam a sala do vento, enquanto Gwindach e Charlotte exploram a sala de terra.",
+    "Quase engolidos por elementais, Charlotte e Gwindach golpeiam os pilares enquanto a batalha começa.",
+    "Com uma maré de azar, o grupo enfrenta uma armadura animada, onde duas bolas de fogo são engolidas por Kot em sua forma elemental, encerrando sua vida.",
+    "Jones é arrastado para fora do Plano dos Raios e, de lá, encontra o grupo de Varis e Freya.",
+    "Unidos por um objetivo em comum, Freya e Jones encontram, pela runa verde, Charlotte e Gwindach lutando contra um verme de pedra.",
+    "O grupo derrota o verme e, após um descanso, dirige-se às profundezas da torre, onde enfrenta elementais de raio e, por meio de magia caótica, invoca um unicórnio que fala um pouco sobre a torre."
+  ],
+  comemorativa: false
+},
+{
+  ano: 4900,
+  estacao: "Verão",
+  dia: 12,
+  eventos: [
+    "Apis caminha pela manhã em busca de água para o grupo, retornando algumas horas depois com 7 litros de água que conseguiu carregar de um rio.",
+    "Vésperus irá testar sua gripe por 2 dias; Jack, por 3.",
+    "Gwindach, Varis, Charlotte, Freya e Kot caminham até a Torre de Papel, adentrando suas paredes após conversarem com Durin.",
+    "Apis, Tilayra, Vésperus, Rafaella e Jack caminham pela estrada, onde são encurralados por Lacertílios Selvagens.",
+    "O grupo se questiona sobre a emboscada e a presença de adagas estranhas nos lagartos."
+  ],
+  comemorativa: false
+},
+{
+  ano: 4900,
+  estacao: "Verão",
+  dia: 13,
+  eventos: [
+    "Ao despertar, Apis, Tilayra, Vésperus, Rafaella e Jack voltam a caminhar.",
+    "Desde o meio-dia, Vésperus começa a ver campos ao longo da estrada.",
+    "Duas horas antes do pôr do sol, Apis, Tilayra, Vésperus, Rafaella e Jack chegam a Madeira à Deriva.",
+    "A cidade de Madeira à Deriva os recebe com silêncio e desconfiança; pessoas correm e trancam suas portas.",
+    "Ao entrarem na casa de Nowell Graven, leiteiro da cidade, junto de suas cinco filhas, esposa e sogra, Vésperus, Tilayra e Rafaella conversam sobre a cidade, questionando-se se devem investigá-la.",
+    "Apis, Tilayra, Vésperus, Rafaella e Jack vão até a taverna da Casca d'Ouro, deixando Jack no quarto enquanto exploram a cidade.",
+    "Eles encontram o fazendeiro e criador de cavalos Kilian Gade, o joalheiro e responsável pela casa da moeda Ull, e exploram o costureiro Myron Tweed antes de chegar ao templo de Chanatae.",
+    "Após comprarem bandagens e retornarem à taverna, descobrem o desaparecimento de Jack. Explorando o local, encontram o homem chamado Olivero, que é rapidamente derrotado após trair Vésperus.",
+    "Tilayra desaparece durante a noite."
+  ],
+  comemorativa: false
+},
+{
+  ano: 4900,
+  estacao: "Verão",
+  dia: 14,
+  eventos: [
+    "Vésperus ameaça Derek Desleigh com uma faca, e o grupo adentra apressadamente a casa do prefeito Mogno em busca de respostas.",
+    "Sem Tilayra ou Jack, o grupo se aproxima de uma pequena cabana próxima à casa do prefeito Mogno; os dois elfos os recebem e batem a porta após fornecerem informações vagas.",
+    "Disfarçado dentro da carroça, Luthier assume o papel de vendedor de sementes e caminha pela vila.",
+    "Rafaella e Apis seguem na carroça, tentando se desvencilhar do companheiro Sangue de Fogo, enquanto o vendedor de sementes caminha até a clareira de Remné.",
+    "Remné comenta sobre os eventos na cidade, dizendo que ações falam mais alto que palavras e que, quando a hora chegasse, deveriam retornar.",
+    "Com essas mensagens, Apis, Rafaella e Luthier exploram um pouco mais a cidade, conversando com os moradores na taverna da Serpente Dominhoca, enquanto Luthier utiliza Ler Pensamentos na taverneira local.",
+    "Ao se separarem, Luthier vai até a Casca d'Ouro e lê os pensamentos do taverneiro, descobrindo a existência de um porão; um pequeno alvoroço começa a se espalhar quando ele sai.",
+    "O nome de O Deus Réptil surge em sua mente, enquanto Rafaella e Apis conversam com a viúva Vilma sobre o estado da cidade, os clérigos e a preocupação dela com o prefeito após a chegada dos estranhos. Ela também comenta sobre o ferreiro e um de seus vizinhos.",
+    "Reunidos em frente ao templo de Chanatae, Luthier, Apis e Rafaella planejam os próximos passos, avaliando a possibilidade de invadir a taverna durante a noite.",
+    "Luthier e Rafaella entram no templo e encontram a sacerdotisa Misha Devi, que foge após ser questionada e ter seu quarto invadido, enquanto os monges locais atacam os aventureiros.",
+    "Luthier e Rafaella são levados a um local desconhecido, onde conseguem escapar, matando três Lacertílios que os mantinham presos após libertarem a si mesmos e a Tilayra, encontrando-se então em um labirinto de mármore."
+  ],
+  comemorativa: false
+}
 ];
+
 
 
 
