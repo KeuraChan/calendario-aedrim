@@ -423,6 +423,7 @@ const eventos = [
   { ano: 4895, estacao: "Inverno", dia: 15, eventos: ["Morte da Rainha de Rubi, fim da guerra contra Companhia Negra",], comemorativa: false, definidor: true },
   { ano: 4900, estacao: "Primavera", dia: 64, eventos: ["Invasão Goblinóide à Dragão Dormente"],comemorativa: false,definidor: true },
   { ano: 4900, estacao: "Verão", dia: 7, eventos: ["Um Eclipse recai sob Aedrim após o meio dia"],comemorativa: false,definidor: true },
+  { ano: 4900, estacao: "Verão", dia: 12, eventos: ["A cidade de Queldor desaparece, deixando uma gigantesca cratera em seu lugar"],comemorativa: false,definidor: true },
    
   // LINHA DO TEMPO
   {	
@@ -1270,7 +1271,9 @@ const eventos = [
     "Com uma maré de azar, o grupo enfrenta uma armadura animada, onde duas bolas de fogo são engolidas por Kot em sua forma elemental, encerrando sua vida.",
     "Jones é arrastado para fora do Plano dos Raios e, de lá, encontra o grupo de Varis e Freya.",
     "Unidos por um objetivo em comum, Freya e Jones encontram, pela runa verde, Charlotte e Gwindach lutando contra um verme de pedra.",
-    "O grupo derrota o verme e, após um descanso, dirige-se às profundezas da torre, onde enfrenta elementais de raio e, com uma de suas magias se tornando caótica, invoca um unicórnio que fala um pouco sobre a torre."
+    "O grupo derrota o verme e, após um descanso, dirige-se às profundezas da torre, onde enfrenta elementais de raio e, com uma de suas magias se tornando caótica, invoca um unicórnio que fala um pouco sobre a torre.",
+	"Nas mãos de suas cópias elementais. Charlotte não resiste ao ataque e perece.",
+	"Com suas cópias elementais derrotadas o grupo de Varis, Freya, Gwindach e Jones entregam o fragmento do Caos aos elementais que abrem uma passagem para o plano terreno."
   ],
   comemorativa: false
 },
@@ -1279,6 +1282,7 @@ const eventos = [
   estacao: "Verão",
   dia: 12,
   eventos: [
+	"Varis, Freya, Gwindach e Jones presenciam a destruição da cidade de Queldor com esta sendo engolida e destruída, uma cratera sendo deixada no lugar",
     "Apis caminha pela manhã em busca de água para o grupo, retornando algumas horas depois com 7 litros de água que conseguiu carregar de um rio.",
     "Vésperus irá testar sua gripe por 2 dias; Jack, por 3.",
     "Gwindach, Varis, Charlotte, Freya e Kot caminham até a Torre de Papel, adentrando suas paredes após conversarem com Durin.",
@@ -1324,6 +1328,7 @@ const eventos = [
   comemorativa: false
 }
 ];
+
 
 
 
