@@ -491,6 +491,25 @@ const eventos = [
   },
   {
     ano: 4899,
+    estacao: "Primavera",
+    dia: 32,
+    eventos: [
+      "Um grupo de aventureiros coposto por: Caleb, Dyluxia, Elenora, Feenéris e Tharok. Em Portal de Sangue é recebido por um Barão Lamal e contratado para salvar seu filho que foi sequestrado ",
+    ],
+    comemorativa: false,
+  },
+  {
+    ano: 4899,
+    estacao: "Primavera",
+    dia: 33,
+    eventos: [
+      "Invadindo o Lago da Papoula, uma casa abandonada onde se traficava ópio, o grupo de Caleb, Dyluxia, Elenora, Feenéris e Tharok ataca os produtores e encontra um grupo de cultistas atrás de uma porta.",
+	  "Dyluxia morre atacada por um demônio. Logo após o grup oo derrota e resgata o filho do barão.",
+    ],
+    comemorativa: false,
+  },
+  {
+    ano: 4899,
     estacao: "Verão",
     dia: 1,
     eventos: [
@@ -1328,6 +1347,7 @@ const eventos = [
   comemorativa: false
 }
 ];
+
 
 
 
