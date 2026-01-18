@@ -504,7 +504,7 @@ const eventos = [
     dia: 33,
     eventos: [
       "Invadindo o Lago da Papoula, uma casa abandonada onde se traficava ópio, o grupo de Caleb, Dyluxia, Elenora, Feenéris e Tharok ataca os produtores e encontra um grupo de cultistas atrás de uma porta.",
-	  "Dyluxia morre atacada por um demônio. Logo após o grup oo derrota e resgata o filho do barão.",
+	  "Dyluxia morre atacada por um demônio. Logo após o grupo o derrota e resgata o filho do barão.",
     ],
     comemorativa: false,
   },
@@ -1347,6 +1347,7 @@ const eventos = [
   comemorativa: false
 }
 ];
+
 
 
 
