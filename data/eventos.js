@@ -1344,11 +1344,12 @@ const eventos = [
     "Luthier e Rafaella entram no templo e encontram a sacerdotisa Misha Devi, que foge após ser questionada e ter seu quarto invadido, enquanto os monges locais atacam os aventureiros.",
     "Luthier e Rafaella são levados a um local desconhecido, onde conseguem escapar, matando três Lacertílios que os mantinham presos após libertarem a si mesmos e a Tilayra, encontrando-se então em um labirinto de mármore.",
 	"O Labirinto de Mármore, se impôs sob o grupo de Vésperus, Tilayra e Rafaella caminham pelo labirinto enquanto ouvem barulhos no labirinto quando, após abrirem uma porta, enfrentam um ogro.",
-    "Subindo as escadas após de corda pós labirinto, Vésperus, Tilayra e Rafaella são atacados por lacertílios e a sacerdotisa, atacada e derrubada d escada, a jovem é levada até o labirinto por Vésperus e tem suas pernas quebradas enquanto ouvem sobre o possível sequestro de Apis no térreo.",
+    "Subindo as escadas após de corda pós labirinto, Vésperus, Tilayra e Rafaella são atacados por lacertílios e a sacerdotisa Misha, atacada e derrubada d escada, a jovem é levada até o labirinto por Vésperus e tem suas pernas quebradas enquanto ouvem sobre o possível sequestro de Apis no térreo.",
   ],
   comemorativa: false
 }
 ];
+
 
 
 
