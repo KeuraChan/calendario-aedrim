@@ -1342,6 +1342,15 @@ const eventos = [
     "O nome de O Deus Réptil surge em sua mente, enquanto Rafaella e Apis conversam com a viúva Vilma sobre o estado da cidade, os clérigos e a preocupação dela com o prefeito após a chegada dos estranhos. Ela também comenta sobre o ferreiro e um de seus vizinhos.",
     "Reunidos em frente ao templo de Chanatae, Luthier, Apis e Rafaella planejam os próximos passos, avaliando a possibilidade de invadir a taverna durante a noite.",
     "Luthier e Rafaella entram no templo e encontram a sacerdotisa Misha Devi, que foge após ser questionada e ter seu quarto invadido, enquanto os monges locais atacam os aventureiros.",
+	"Com a demora de seus companheiros, Apis tenta invadir o templo de Chanatae, matando dois de seus zeladores e lobos no processo. Encotrando o velho Reni, o dá um pergaminho de levitação e o manda em seu caminho. Onde é capturadoapós uma tentativa de invasão."
+  ],
+  comemorativa: false
+},
+{
+  ano: 4900,
+  estacao: "Verão",
+  dia: 15,
+  eventos: [
     "Luthier e Rafaella são levados a um local desconhecido, onde conseguem escapar, matando três Lacertílios que os mantinham presos após libertarem a si mesmos e a Tilayra, encontrando-se então em um labirinto de mármore.",
 	"O Labirinto de Mármore, se impôs sob o grupo de Vésperus, Tilayra e Rafaella caminham pelo labirinto enquanto ouvem barulhos no labirinto quando, após abrirem uma porta, enfrentam um ogro.",
     "Subindo as escadas após de corda pós labirinto, Vésperus, Tilayra e Rafaella são atacados por lacertílios e a sacerdotisa Misha, atacada e derrubada da escada, a jovem é levada até o labirinto por Vésperus e tem suas pernas quebradas enquanto ouvem sobre o possível sequestro de Apis no térreo.",
@@ -1349,6 +1358,7 @@ const eventos = [
   comemorativa: false
 }
 ];
+
 
 
 
