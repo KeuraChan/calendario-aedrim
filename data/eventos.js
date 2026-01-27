@@ -1302,6 +1302,10 @@ const eventos = [
   dia: 12,
   eventos: [
 	"Varis, Freya, Gwindach e Jones presenciam a destruição da cidade de Queldor com esta sendo engolida e destruída, uma cratera sendo deixada no lugar",
+	"Varis, expora a região por alguma comida, notando sobreviventes na cidade de Queldor, presenciando a destruição, o mesmo entega a comdia e jóias que possuiam em sua carroça",
+	"Entregando ao grupo o certificado da missão realizada, Varis retorna para cidade, tentar ajudar os sobreviventes e se recuperar.",
+	"Varis entra em contato com sua patrona onde ela pouco se importa com a cidade e diz para se focar nos objetivos.",
+	"Os cavaleiros de Escada de Ferro chegando, os clérigos de Tallar se aproximam para ajudar os sobreviventes, enquanto o aventureiro descansa e identifica os pergaminhos.",
     "Apis caminha pela manhã em busca de água para o grupo, retornando algumas horas depois com 7 litros de água que conseguiu carregar de um rio.",
     "Vésperus irá testar sua gripe por 2 dias; Jack, por 3.",
     "Gwindach, Varis, Charlotte, Freya e Kot caminham até a Torre de Papel, adentrando suas paredes após conversarem com Durin.",
@@ -1358,6 +1362,7 @@ const eventos = [
   comemorativa: false
 }
 ];
+
 
 
 
