@@ -1320,6 +1320,8 @@ const eventos = [
   dia: 13,
   eventos: [
     "Ao despertar, Apis, Tilayra, Vésperus, Rafaella e Jack voltam a caminhar.",
+	"Freya, Gwindach e Jones em sua viagem permancem na estrada, quando encontram um estranho ruído etéreo na encosta da estrada.",
+	"Jones e Freya encontram um funeral de um unicórnio, atrapalhando este antes de Jontes tirar a carne e chifre da criatura morta, levando 12kg de carne da besta e cravando sua cabeça na estrada.",
     "Desde o meio-dia, Vésperus começa a ver campos ao longo da estrada.",
     "Duas horas antes do pôr do sol, Apis, Tilayra, Vésperus, Rafaella e Jack chegam a Madeira à Deriva.",
     "A cidade de Madeira à Deriva os recebe com silêncio e desconfiança; pessoas correm e trancam suas portas.",
@@ -1327,7 +1329,9 @@ const eventos = [
     "Apis, Tilayra, Vésperus, Rafaella e Jack vão até a taverna da Casca d'Ouro, deixando Jack no quarto enquanto exploram a cidade.",
     "Eles encontram o fazendeiro e criador de cavalos Kilian Gade, o joalheiro e responsável pela casa da moeda Ull, e exploram o costureiro Myron Tweed antes de chegar ao templo de Chanatae.",
     "Após comprarem bandagens e retornarem à taverna, descobrem o desaparecimento de Jack. Explorando o local, encontram o homem chamado Olivero, que é rapidamente derrotado após trair Vésperus.",
-    "Tilayra desaparece durante a noite."
+	"Jontes, Gwindach e Freaya presenciam uma saída geral de clérigos e outros aventureiros da cidade. Jontes leva o corpo de Charlotte para o templo dourado e junto de uma garota elfa revivem a caída Charlotte.",
+	"Varis começa seu descanso nas ruínas de Queldor",
+    "Tilayra desaparece durante a noite. Sequestrada pelo culto ao Deus Lagarto."
   ],
   comemorativa: false
 },
@@ -1362,6 +1366,7 @@ const eventos = [
   comemorativa: false
 }
 ];
+
 
 
 
