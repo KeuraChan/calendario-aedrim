@@ -1340,7 +1340,9 @@ const eventos = [
   estacao: "Verão",
   dia: 14,
   eventos: [
-    "Vésperus ameaça Derek Desleigh com uma faca, e o grupo adentra apressadamente a casa do prefeito Mogno em busca de respostas.",
+    "Crinvok Nurdak e Lily Nightshade saem em missão (Coletar Folhas Mágicas na Beira de um Rio) pelo período de 3 dias",
+	"Charlotte retoma seu treinamento por Maestria com Tridente DEBILITAR (21/50)",
+	"Vésperus ameaça Derek Desleigh com uma faca, e o grupo adentra apressadamente a casa do prefeito Mogno em busca de respostas.",
     "Sem Tilayra ou Jack, o grupo se aproxima de uma pequena cabana próxima à casa do prefeito Mogno; os dois elfos os recebem e batem a porta após fornecerem informações vagas.",
     "Disfarçado dentro da carroça, Luthier assume o papel de vendedor de sementes e caminha pela vila.",
     "Rafaella e Apis seguem na carroça, tentando se desvencilhar do companheiro Sangue de Fogo, enquanto o vendedor de sementes caminha até a clareira de Remné.",
@@ -1362,27 +1364,14 @@ const eventos = [
     "Luthier e Rafaella são levados a um local desconhecido, onde conseguem escapar, matando três Lacertílios que os mantinham presos após libertarem a si mesmos e a Tilayra, encontrando-se então em um labirinto de mármore.",
 	"O Labirinto de Mármore, se impôs sob o grupo de Vésperus, Tilayra e Rafaella caminham pelo labirinto enquanto ouvem barulhos no labirinto quando, após abrirem uma porta, enfrentam um ogro.",
     "Subindo as escadas após de corda pós labirinto, Vésperus, Tilayra e Rafaella são atacados por lacertílios e a sacerdotisa Misha, atacada e derrubada da escada, a jovem é levada até o labirinto por Vésperus e tem suas pernas quebradas enquanto ouvem sobre o possível sequestro de Apis no térreo.",
+	"Vésperus, Tilayra e Rafaella deixam o porão abaixo do templo de Chanatae, enganando monges e os trancando no porão antes de matarem dois deles.",
+	"Correndo escada acima, Vésperus, Tilayra e Rafaella enfrentam esqueletos fechando portas atrás de si, tentando impedir o avanço dos monges.",
+	"Passando pela sala de tortura, são emboscados por Abramo, ex-sacerdote de Chanatae, agora cultista do Deus Réptil.",
+  	"Correndo, após a magia de silêncio ser interrompida por Rafaella, Abramo se esconde na sala secreta, junto de Ceres, Apis e a pequena filha, Ciris.",
+	"Novamente em uma luta, Vésperus, Tilayra, Rafaella, Ceres e Apis derrotam o sacerdote, com Ceres atirando uma pedra em seu olho e Vésperus quebrando seu joelho enquanto a pequena Ciris implora para não o matarem.",
+	"Explicando sobre o Deus Réptil, ela fala sobre o seu covil na floresta inundada à noroeste",
+	"Caminhando com os elfos, da cidade, que invadiram o templo, o grupo se reune, com Ceres se unindo a eles, finalmente deixando a sala, mas não antes de Tilayra e Vésperus Luthier quebrarem o braço do sacerdote Abramo."
   ],
   comemorativa: false
 }
 ];
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
