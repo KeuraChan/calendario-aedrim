@@ -1341,7 +1341,7 @@ const eventos = [
   dia: 14,
   eventos: [
     "Crinvok Nurdak e Lily Nightshade saem em missão (Coletar Folhas Mágicas na Beira de um Rio) pelo período de 3 dias",
-	"Charlotte retoma seu treinamento por Maestria com Tridente DEBILITAR (21/50)",
+	"Charlotte retoma seu treinamento por Maestria com Tridente DEBILITAR (24/50)",
 	"Vésperus ameaça Derek Desleigh com uma faca, e o grupo adentra apressadamente a casa do prefeito Mogno em busca de respostas.",
     "Sem Tilayra ou Jack, o grupo se aproxima de uma pequena cabana próxima à casa do prefeito Mogno; os dois elfos os recebem e batem a porta após fornecerem informações vagas.",
     "Disfarçado dentro da carroça, Luthier assume o papel de vendedor de sementes e caminha pela vila.",
@@ -1375,3 +1375,4 @@ const eventos = [
   comemorativa: false
 }
 ];
+
