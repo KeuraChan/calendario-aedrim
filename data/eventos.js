@@ -1342,17 +1342,19 @@ const eventos = [
   eventos: [
     "Crinvok Nurdak e Lily Nightshade saem em missão (Coletar Folhas Mágicas na Beira de um Rio) pelo período de 3 dias",
 	"Charlotte retoma seu treinamento por Maestria com Tridente DEBILITAR (24/50)",
+	"Freya se despede de seus companheiros e parte sozinha em missão (Coletar Flores do Campo no Cemitério de Espadas) retornando durante a noite do mesmo dia.",
+	"Haguiar explora a cidade caminhando até o mercado central, vendendo 16kg de carne de unicórnio por 160po.",
 	"Vésperus ameaça Derek Desleigh com uma faca, e o grupo adentra apressadamente a casa do prefeito Mogno em busca de respostas.",
     "Sem Tilayra ou Jack, o grupo se aproxima de uma pequena cabana próxima à casa do prefeito Mogno; os dois elfos os recebem e batem a porta após fornecerem informações vagas.",
     "Disfarçado dentro da carroça, Luthier assume o papel de vendedor de sementes e caminha pela vila.",
     "Rafaella e Apis seguem na carroça, tentando se desvencilhar do companheiro Sangue de Fogo, enquanto o vendedor de sementes caminha até a clareira de Remné.",
-    "Remné comenta sobre os eventos na cidade, dizendo que ações falam mais alto que palavras e que, quando a hora chegasse, deveriam retornar.",
+    "Remné comenta sobre os eventos na cidade para Vésperus, dizendo que ações falam mais alto que palavras e que, quando a hora chegasse, deveriam retornar.",
     "Com essas mensagens, Apis, Rafaella e Luthier exploram um pouco mais a cidade, conversando com os moradores na taverna da Serpente Dominhoca, enquanto Luthier utiliza Ler Pensamentos na taverneira local.",
     "Ao se separarem, Luthier vai até a Casca d'Ouro e lê os pensamentos do taverneiro, descobrindo a existência de um porão; um pequeno alvoroço começa a se espalhar quando ele sai.",
     "O nome de O Deus Réptil surge em sua mente, enquanto Rafaella e Apis conversam com a viúva Vilma sobre o estado da cidade, os clérigos e a preocupação dela com o prefeito após a chegada dos estranhos. Ela também comenta sobre o ferreiro e um de seus vizinhos.",
     "Reunidos em frente ao templo de Chanatae, Luthier, Apis e Rafaella planejam os próximos passos, avaliando a possibilidade de invadir a taverna durante a noite.",
     "Luthier e Rafaella entram no templo e encontram a sacerdotisa Misha Devi, que foge após ser questionada e ter seu quarto invadido, enquanto os monges locais atacam os aventureiros.",
-	"Com a demora de seus companheiros, Apis tenta invadir o templo de Chanatae, matando dois de seus zeladores e lobos no processo. Encotrando o velho Reni, o dá um pergaminho de levitação e o manda em seu caminho. Onde é capturadoapós uma tentativa de invasão."
+	"Com a demora de seus companheiros, Apis tenta invadir o templo de Chanatae, matando dois de seus zeladores e lobos no processo. Encotrando o velho Reni, o dá um pergaminho de levitação e o manda em seu caminho. Onde é capturado após uma tentativa de invasão."
   ],
   comemorativa: false
 },
@@ -1361,6 +1363,7 @@ const eventos = [
   estacao: "Verão",
   dia: 15,
   eventos: [
+	"Freya decide sair mais uma vez para concluir outra missão (Coletar Folhas Mágicas nas Montanhas), retornando após 4 dias.",
     "Luthier e Rafaella são levados a um local desconhecido, onde conseguem escapar, matando três Lacertílios que os mantinham presos após libertarem a si mesmos e a Tilayra, encontrando-se então em um labirinto de mármore.",
 	"O Labirinto de Mármore, se impôs sob o grupo de Vésperus, Tilayra e Rafaella caminham pelo labirinto enquanto ouvem barulhos no labirinto quando, após abrirem uma porta, enfrentam um ogro.",
     "Subindo as escadas após de corda pós labirinto, Vésperus, Tilayra e Rafaella são atacados por lacertílios e a sacerdotisa Misha, atacada e derrubada da escada, a jovem é levada até o labirinto por Vésperus e tem suas pernas quebradas enquanto ouvem sobre o possível sequestro de Apis no térreo.",
@@ -1373,6 +1376,16 @@ const eventos = [
 	"Caminhando com os elfos, da cidade, que invadiram o templo, o grupo se reune, com Ceres se unindo a eles, finalmente deixando a sala, mas não antes de Tilayra e Vésperus Luthier quebrarem o braço do sacerdote Abramo."
   ],
   comemorativa: false
-}
+},
+{
+  ano: 4900,
+  estacao: "Verão",
+  dia: 17,
+  eventos: [
+	  "Crinvok Nurdak, Lily Nightshade e Freya voltam de suas missões de coleta.",
+  ],
+  comemorativa: false
+},
 ];
+
 
