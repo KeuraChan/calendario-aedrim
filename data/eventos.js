@@ -436,6 +436,21 @@ const eventos = [
 	  ], 
 	  comemorativa: false,
   },
+  {	
+	  ano: 4805, 
+	  estacao: "Primavera", 
+	  dia: 60, 
+	  eventos: [
+		  "O grupo Vesperon chega à cidade de Lago de Rubi, encontrando-a em ruínas queimada e infestada de Mortos-Vivos",
+		  "Encontrando magos junto a mortos-vivos, o grupo Vesperon enfrentam e derrotam alguns dos necromantes enquanto se aproximam da roda d'água.",
+		  "Encontrando o mago cego no porão do moinho, questionam o por que de tal massacre.",
+		  "Grupo Vesperon parte em direção ao ritual, encontrando magos em um globo enquanto são atacados por um guardião.",
+		  "Os magos tentam construir uma zona de não-vida na cidade, matando seus habitantes e sacrificando-os para, segundo o cego vidente, previnir uma grande guerra que logo caíria sob Aedrim.",
+		  "Derrotados, pelo grupo junto do 'Coveiro', que chegou destruindo a barreira para que os aventureiros os derrotassem",
+		  "Finn e o 'Coveiro' permanecem na cidade, o primeiro dedicado à ajudar na sua reconstrução, o segundo, dizendo que ainda havia trabalho para fazer.",
+	  ], 
+	  comemorativa: false,
+  },
   {
     ano: 4892,
     estacao: "Verão",
@@ -1388,6 +1403,7 @@ const eventos = [
   comemorativa: false
 },
 ];
+
 
 
 
