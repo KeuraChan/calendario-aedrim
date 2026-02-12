@@ -1373,7 +1373,7 @@ const eventos = [
 	"Passando pela sala de tortura, são emboscados por Abramo, ex-sacerdote de Chanatae, agora cultista do Deus Réptil.",
   	"Correndo, após a magia de silêncio ser interrompida por Rafaella, Abramo se esconde na sala secreta, junto de Ceres, Apis e a pequena filha, Ciris.",
 	"Novamente em uma luta, Vésperus, Tilayra, Rafaella, Ceres e Apis derrotam o sacerdote, com Ceres atirando uma pedra em seu olho e Vésperus quebrando seu joelho enquanto a pequena Ciris implora para não o matarem.",
-	"Explicando sobre o Deus Réptil, ela fala sobre o seu covil na floresta inundada à noroeste",
+	"Explicando sobre o Deus Réptil, ela fala sobre o seu covil na floresta inundada à um dia de viagem ao nordeste",
 	"Caminhando com os elfos, da cidade, que invadiram o templo, o grupo se reune, com Ceres se unindo a eles, finalmente deixando a sala, mas não antes de Tilayra e Vésperus Luthier quebrarem o braço do sacerdote Abramo."
   ],
   comemorativa: false
@@ -1388,6 +1388,7 @@ const eventos = [
   comemorativa: false
 },
 ];
+
 
 
 
