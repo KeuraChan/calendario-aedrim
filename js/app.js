@@ -8,6 +8,7 @@ const diasPorEstacao = {
 };
 
 const estacoes = ["Primavera", "Verão", "Outono", "Inverno"];
+const modalEventos = document.getElementById("modal");
 
 // Renderiza o calendário
 function renderCalendario() {
@@ -253,7 +254,7 @@ function abrirModal(dia, listaEventos) {
     });
   });
 
-  document.getElementById("modal").style.display = "flex";
+  modalEventos.style.display = "flex";
 }
 
 // --- BUSCA GLOBAL ---
@@ -300,7 +301,7 @@ document.getElementById("busca").addEventListener("input", (e) => {
 
 // Fecha modal
 function fecharModal() {
-  document.getElementById("modal").style.display = "none";
+  modalEventos.style.display = "none";
   document.getElementById("menu-definidores").style.display = "none";
 }
 
@@ -354,12 +355,22 @@ menuModal.addEventListener("click", (e) => {
   }
 });
 
+// fechar clicando fora do conteúdo do modal de eventos
+modalEventos.addEventListener("click", (e) => {
+  if (e.target === modalEventos) {
+    fecharModal();
+  }
+});
+
 // Opcional: fechar com ESC
 document.addEventListener("keydown", (e) => {
   if (e.key === "Escape") {
     menuModal.style.display = "none";
+    fecharModal();
   }
 });
+
+
 
 document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("estacao").value = estacaoAtual;
@@ -367,5 +378,6 @@ document.addEventListener("DOMContentLoaded", () => {
   renderCalendario();
   renderDefinidores();
 });
+
 
 
