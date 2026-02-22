@@ -1402,7 +1402,22 @@ const eventos = [
   ],
   comemorativa: false
 },
+	{
+  ano: 4900,
+  estacao: "Verão",
+  dia: 18,
+  eventos: [
+	  "Charlotte Morningstar continuou seu treinamento na parte da manhã e duelou vitoriosamente contra seu treinador Pheorn até a primeira gota de sangue.",
+	  "Varis chegou à cidade junto a uma caravana de refugiados de Queldor e se encontrou com Crinvok ao ir em direção à taverna.",
+	  "Halor Nailo encontrou-se ao acaso com seu sobrinho ao visitar a cidade para começar a construção de sua mina na cidade de Dragão Dormente.",
+	  "Crinvok conversa sobre a cidade com Elkas.",
+	  "Varis e seu tio, Halor Nailo, conversam com Amargo e se desentendem com ele.",
+	  "Charlotte, Crinvok e Varis se reúnem para beber, conversando rapidamente com Maria e colocam os assuntos em dia do preíodo pós-morte de Charlotte até o atual momento. Enquanto bebem, presenciam a garota elfa trapaceando em um jogo de cartas.",
+  ],
+  comemorativa: false
+},
 ];
+
 
 
 
