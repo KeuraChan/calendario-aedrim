@@ -1389,14 +1389,14 @@ const eventos = [
   	"Correndo, após a magia de silêncio ser interrompida por Rafaella, Abramo se esconde na sala secreta, junto de Ceres, Apis e a pequena filha, Ciris.",
 	"Novamente em uma luta, Vésperus, Tilayra, Rafaella, Ceres e Apis derrotam o sacerdote, com Ceres atirando uma pedra em seu olho e Vésperus quebrando seu joelho enquanto a pequena Ciris implora para não o matarem.",
 	"Explicando sobre o Deus Réptil, ela fala sobre o seu covil na floresta inundada à um dia de viagem ao nordeste",
-	"Caminhando com os elfos, da cidade, que invadiram o templo, o grupo se reune, com Ceres se unindo a eles, finalmente deixando a sala, mas não antes de Tilayra e Vésperus Luthier quebrarem o braço do sacerdote Abramo.",
-	"O grupo, de Vésperus, Tilayra, Rafaella, Apis, Ceres, Dorian, Llywillan e Ciris seguem pelas ruas de Madeira à Deriva, a maltidão composta pelos cultistas e outros habitantes ameaçados pela ação do grupo se movem pelas ruas atrás dos responsáveis pela queima do templo.",
-    "Recuperando sua carroça Vésperus, Tilayra, Rafaella, Apis, Ceres, Dorian, Llywillan e Ciris seguem até o heremita Ramne que os abriga em um demi-plano",
-	"Se organizando Vésperus identifica os itens: 'Anel de Proteção', 'Cota de Malha +1' e 'Escudo de Proteção', Ceres se sintoniza com o 'Escudo de Proteção' e Rafaella com o 'Anel de Proteção'.",
-	"Vésperus, Tilayra, Rafaella, Apis, Ceres, Dorian e Llywillan deixam a cidade escondidos, seguinto para as florestas inundadas ao nordeste.",
-	"Seguindo o caminho, Apis ajuda ao guia-los encontrando mais sinos da morte no caminho junto do rastro que o grupo acredita ser do culto para o Deus Réptil.",
-	"Nesse caminho, iluminado pela luz conjurada por Rafaella, eles avistam um Ogro e sem pensar duas vezes o destroem, nbão sobrando nada além uma carcaça.",
-	"No caminhar, enquanto procuravam um ponto seguro para descansarem, enquanto buscavam por suprimentos pro acampamento, eles são emboscados por zumbis, antes de caírem no sono."
+	"Caminhando com os elfos da cidade que invadiram o templo, o grupo se reúne, com Ceres se unindo a eles, finalmente deixando a sala, mas não antes de Tilayra e Vésperus Luthier quebrarem o braço do sacerdote Abramo.",
+	"O grupo, composto por Vésperus, Tilayra, Rafaella, Apis, Ceres, Dorian, Llywillan e Ciris, segue pelas ruas de Madeira à Deriva. A multidão, composta pelos cultistas e outros habitantes ameaçados pela ação do grupo, se move pelas ruas atrás dos responsáveis pela queima do templo.",
+	"Recuperando sua carroça, Vésperus, Tilayra, Rafaella, Apis, Ceres, Dorian, Llywillan e Ciris seguem até o eremita Ramne, que os abriga em um demi-plano.",
+	"Se organizando, Vésperus identifica os itens: 'Anel de Proteção', 'Cota de Malha +1' e 'Escudo de Proteção'. Ceres se sintoniza com o 'Escudo de Proteção' e Rafaella com o 'Anel de Proteção'.",
+	"Vésperus, Tilayra, Rafaella, Apis, Ceres, Dorian e Llywillan deixam a cidade escondidos, seguindo para as florestas inundadas ao nordeste.",
+	"Seguindo o caminho, Apis ajuda a guiá-los, encontrando mais Sinos da Morte pelo trajeto, junto do rastro que o grupo acredita ser do culto ao Deus Réptil.",
+	"Nesse caminho, iluminado pela luz conjurada por Rafaella, eles avistam um ogro e, sem pensar duas vezes, o destroem, não sobrando nada além de uma carcaça.",
+	"No percurso, enquanto procuravam um ponto seguro para descansar e buscavam suprimentos para o acampamento, eles são emboscados por zumbis antes de caírem no sono.",
   ],
   comemorativa: false
 },
@@ -1424,6 +1424,7 @@ const eventos = [
   comemorativa: false
 },
 ];
+
 
 
 
