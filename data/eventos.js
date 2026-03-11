@@ -525,6 +525,39 @@ const eventos = [
   },
   {
     ano: 4899,
+    estacao: "Primavera",
+    dia: 44,
+    eventos: [
+      "Caleb, Elenora, Feenéris e Tharok estão bebendo cerveja barata no 'Casco do Kraken' em Portal de Sangue quando Asmodeus, um eco que serve o Barão 'O Olho' trazendo 500 marcos vermelhos para o grupo.",
+	  "Conversando pouco, o grupo decide cumprir parte de seu acordo, levando parte do dinheiro para a filha de Dyluxia. Caleb, Elenora, Feenéris, Asmodeus e Tharok param em um mercado local, fazendo compras enquanto caminham para as margens da cidade.",
+      "O grupo encontra os agiotas 'Tubarões de Água Negra' na casa da mãe de Dyluxia, expulsando dois deles, o último tenta os enfrentar, quando é derrotado, capturado, interrogado e morto por informações de seu grupo.",
+      "Com Tharok ficando para trás, Caleb, Elenora, Feenéris e Asmodeus caminham ao sul em direção à Água Turva."
+    ],
+    comemorativa: false,
+  },
+  {
+    ano: 4899,
+    estacao: "Primavera",
+    dia: 46,
+    eventos: [
+     "Caleb, Elenora, Feenéris e Asmodeus tem a primeira visão de um verme de sangue devorando Bisões d'água.",
+    ],
+    comemorativa: false,
+  },
+	{
+    ano: 4899,
+    estacao: "Primavera",
+    dia: 49,
+    eventos: [
+     "Vendo as ruínas de um antigo farol, Caleb, Elenora, Feenéris e Asmodeus derrotam os dois guardas antes de invadir o barco Água Negra.",
+	 "Em confusão, após Asmodeus ter se disfarçado de um dos agiotas mortos, o grupo enfrenta a tripulação local, quando o primeiro imediato sobe para os enfrentar.",
+	 "Vendo sua tripulação morta, o primeiro imediato se rende, abrindo a porta para o capitão. Feenéris descobre que já faz muito anos desde que o capitão 'Verme Escorbuto' está morto.",
+	 "Enquanto tentam sair do barco,  Caleb, Elenora, Feenéris e Asmodeus são avistados, o primeiro imediato é arrastado para dentro do barco, quando o 'Capitão' aparece, um Dragão Negro atacando o grupo.",
+    ],
+    comemorativa: false,
+  },
+  {
+    ano: 4899,
     estacao: "Verão",
     dia: 1,
     eventos: [
@@ -1442,6 +1475,7 @@ const eventos = [
   comemorativa: false
 },
 ];
+
 
 
 
