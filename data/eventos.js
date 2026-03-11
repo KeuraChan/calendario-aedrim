@@ -1431,6 +1431,7 @@ const eventos = [
   estacao: "Verão",
   dia: 18,
   eventos: [
+	  "Lily Nightshade parte em missão",
 	  "Charlotte Morningstar continuou seu treinamento na parte da manhã e duelou vitoriosamente contra seu treinador Pheorn até a primeira gota de sangue.",
 	  "Varis chegou à cidade junto a uma caravana de refugiados de Queldor e se encontrou com Crinvok ao ir em direção à taverna.",
 	  "Halor Nailo encontrou-se ao acaso com seu sobrinho ao visitar a cidade para começar a construção de sua mina na cidade de Dragão Dormente.",
@@ -1441,6 +1442,7 @@ const eventos = [
   comemorativa: false
 },
 ];
+
 
 
 
