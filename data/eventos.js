@@ -1401,11 +1401,28 @@ const eventos = [
   comemorativa: false
 },
 {
+	ano: 4900,
+  	estacao: "Verão",
+  	dia: 16,
+  	eventos: [
+		"Crinvok Nurdak, Lily Nightshade e Freya voltam de suas missões de coleta.",
+		"Apis, Ceres, Rafaella, Luthier, Tilayra, Dorian e Llywillan despertaram pós uma noite intensa e seguiram sua jornada floresta-afogada adentro.",
+		"Conforme avançaram, a dificuldade de cruzar o pântano ficou cada vez mais intensa. Após encontrarem rastros de barcos, Tilayra encontrou um velho bote escondido sob as margens da pequena ilha em um local mais fundo e com ajuda de Ceres e Luthier, fizeram de alguns galhos os novos remos.",
+		"Ao passarem dia adentro percorrendo a floresta, Ceres e Tilayra optaram por serem aquelas que guiariam o barco durante à noite, ocasionalmente acordando Rafaella para que fornecesse luz. Durante a travessia de barco, o grupo foi atacado por Estirges, que rapidamente foram eliminadas por Luthier e Dorian e posteriormente o grupo conseguiu descansar e seguir viagem.",
+  	],
+  comemorativa: false	
+},
+{
   ano: 4900,
   estacao: "Verão",
   dia: 17,
   eventos: [
-	  "Crinvok Nurdak, Lily Nightshade e Freya voltam de suas missões de coleta.",
+	  	"Apis, Ceres, Rafaella, Luthier, Tilayra, Dorian e Llywillan atracam em uma elevação, pensando ser o esconderijo do culto, eles descem de maneira rápida e caótica após Tilayra tropeçar em um dos degraus e escorregar escada abaixo e são surpreendidos por 3 cultistas 2 que foram rapidamente nocauteados, tendo suas roupas arrancas para servir como disfarce em um plano de Luthier.",
+		"Com 3 integrantes disfarçados (Luthier, Dorian e Rafaella), o grupo explorou ainda mais aquele covil, sendo surpreendidos por alguns lacertílios em meio a um caminho difícil. Todos foram rapidamente eliminados e logo foram surpreendidos mais uma vez à frente por um grupo de crocodilos. Ceres e Luthier foram abocanhados por 2 deles, enquanto todos tentavam lidar com o outro crocodilo que surgiu.",
+		"Tilayra se transformou em um crocodilo e correu para ajudar Ceres. Luthier e Ceres logo conseguiram se soltar e eliminar dois dos três crocodilos, espantando o último para longe. A druida logo se pôs a explorar e encontrar uma rota para o grupo. Após encontrarem um barco atrás de uma passagem secreta não encontrada anteriormente.",
+		"Todos seguiram na direção apontada por Tilayra e, após uma sequência de caminhos, o grupo se encontrou com uma harpia, que encantou os encantou levando à uma luta intensa, na qual foi morta junto com alguns ratos de uma ninhada que surgiu. O grupo seguiu adiante com a exploração e após encontrarem uma sala com recursos depois de duas salas vazias, foram atacados por lacertílios que, após serem feridos, correram em busca de reforços.",
+		"Tilayra foi à frente e com um ataque surpresa, perdeu sua forma animal. O grupo avançou para ajudá-la, e durante a luta intensa, Luthier revelou a todos que um dos cultistas que os atacava era Jack, membro desaparecido do grupo. Após uma luta intensa, em que muitos cultistas foram mortos e/ou nocauteados, o grupo tomou a importante decisão de restringir fisicamente todos os afetados e manter Jack contido nos quartos dos cultistas até resolverem a situação com o dragão o mais rápido possível.",
+	  	"Crinvok Nurdak, Lily Nightshade e Freya voltam de suas missões de coleta.",
   ],
   comemorativa: false
 },
@@ -1424,6 +1441,7 @@ const eventos = [
   comemorativa: false
 },
 ];
+
 
 
 
