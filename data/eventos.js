@@ -452,6 +452,48 @@ const eventos = [
 	  comemorativa: false,
   },
   {
+    ano: 4890,
+    estacao: "Verão",
+    dia: 28,
+    eventos: [
+      "Um grupo composto por Domingus, clérigo de Tallar, Bramin, um gurreiro ede uma família de artesões e o Nobre Mikhael Arden, paladino de embrace e da família Arden, Junto de 3 servos e 7 outros habitantes de Yukovia partem em direção ao norte em um vale. Quando estavam acampando em uma fogueira, são observados e atacam kobolds que os vigiavam.",
+      "Um kobold atira uma pedra no anão Bramin que balançava a árvore, tentando derrubar o aliado do kobold.",
+	  "O clérigo convence seu companheiro paladino para que deixe a criatura correr após ela se render. Bramin coloca o kobold na fogueira e tenta tragar a carne da criatura.",
+    ],
+    comemorativa: false,
+  },
+  {
+    ano: 4890,
+    estacao: "Verão",
+    dia: 29,
+    eventos: [
+      "Vagando pela lateral de uma montanha, ouvindo o som de combate à frente, o anão Bramin corre À frente enquanto Domingus e Lorde Arden seguem atrás.",
+      "Observando uma luta entre goblins e kobolds, o anão Bramin ataca à primeira criatura à sua frente.e entrando no combate.",
+	  "Pela influência e entregando moedas para os kobolds, o clérigo Domingus os convence que não querem fazer mal às criaturas.",
+	  "No combate, o grupo atrás é emboscado por goblins que logo os atacam e um homem na caravana morre.",
+    ],
+    comemorativa: false,
+  },
+	{
+    ano: 4890,
+    estacao: "Verão",
+    dia: 30,
+    eventos: [
+      "Passando por um desfiladeiro entre duas paredes, Domingus, Bramin e o Mikhael da Casa Arden seguem em frente. Os kobolds que seguiam com o grupo tentam se comunicar avisando que pertencem à esse lugar, com um voto de confiança de Mikhael entrega à eles uma tocha e avisa o grupo atrás para que apertem o passo.",
+      "Avisando os kobolds do desfiladeiro avisados, estes fazem um acordo com 'Argar'ador', um dos Kobolds, por uma passagem segura, que diz que ambos os que acompanham o grupo irão Guiar Domingus, Bramin e Mikhael até seu destino.",
+    ],
+    comemorativa: false,
+  },
+  {
+    ano: 4890,
+    estacao: "Verão",
+    dia: 31,
+    eventos: [
+      "Em Yukovia, um grupo chega até as terras entre as montanhas do silêncio, 'Trishcohfih', marcando início de uma nova aldeia.",
+    ],
+    comemorativa: false,
+  },
+  {
     ano: 4892,
     estacao: "Verão",
     dia: 10,
