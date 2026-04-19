@@ -1532,6 +1532,29 @@ const eventos = [
 	  "Crinvok conversa sobre a cidade com Elkas.",
 	  "Varis e seu tio, Halor Nailo, conversam com Amargo e se desentendem com ele.",
 	  "Charlotte, Crinvok e Varis se reúnem para beber, conversando rapidamente com Maria e colocam os assuntos em dia do preíodo pós-morte de Charlotte até o atual momento. Enquanto bebem, presenciam a garota elfa trapaceando em um jogo de cartas.",
+	  "Na noite daquele dia, encontraram um arqueiro chamado Teperson, que se uniu à bebedeira deles",
+	  "Bêbados, o grupo vai dormir e Charlotte coloca Teperson e Crinvok na mesma cama."
+  ],
+  comemorativa: false
+},
+	{
+  ano: 4900,
+  estacao: "Verão",
+  dia: 19,
+  eventos: [
+	  "Charlotte Morningstar continuou seu treinamento na parte da manhã.",
+	  "À tarde chegou e o grupo de Charlotte, Crinvok e Varis se encontra com um novo aventureiro, o meio-orc Nyco, que pretende entrar para Guilda.",
+	  "Indo para o centro da cidade, conversam com Elysia, comprando tapeçaria e símbolos sagrados.",
+	  "Sabendo do templo ao leste, o grupo se junta à "
+  ],
+  comemorativa: false
+},
+{
+  ano: 4900,
+  estacao: "Verão",
+  dia: 20,
+  eventos: [
+	  
   ],
   comemorativa: false
 },
