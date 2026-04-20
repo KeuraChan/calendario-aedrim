@@ -1570,7 +1570,8 @@ const eventos = [
   estacao: "Verão",
   dia: 20,
   eventos: [
-	  "Chegando a cidade Apis, Ceres, Rafaella, Lliwilan, Dorian, Jack e Tilayra chegam em madeira à deriva e seguem direto para Serpente Sonolenta, dormindo da tarde até o dia seguinte."
+	  "Chegando em Madeira à Deriva cidade Apis, Ceres, Rafaella, Lliwilan, Dorian, Jack e Tilayra chegam em madeira à deriva e seguem direto para Serpente Sonolenta, dormindo da tarde até o dia seguinte."
+	  "Seren, uma nômade e leitora de cartas chega À cidade de Taverna do Dragão Dormente, jogando dados e tendo a sorte lida por um Homem em Cinza, ela recbe um dado e requisitada à entregar à meia-celestial Charlotte. Investigando um pouco, ela parte atrás do grupo de aventureiros."
   ],
   comemorativa: false
 },
@@ -1581,14 +1582,13 @@ const eventos = [
   eventos: [
 	  "À tarde o grupo conhece um felindrum monge, Jean-Paul du Nordvent, que se junta à  Apis, Ceres, Lliwilan, Dorian, Jack e Tilayra",
 	  "À noite, cercados pela fogueira na cidade de Madeira à Deriva, Apis, Ceres, Rafaella e Tilayra desejam seus votos aos que caíram, sentindo falta de Vésperus.",
-	  "Apis, Ceres, Rafaella, Lliwilan, Dorian, Jack, Tilayra e Jean-Paul passam juntos e partem para Dragão Dormente.",
   ],
   comemorativa: false
 },
 	{
   ano: 4900,
   estacao: "Verão",
-  dia: 21,
+  dia: 22,
   eventos: [
 	  "Apis, Ceres, Rafaella, Lliwilan, Dorian, Jack, Tilayra e Jean-Paul passam juntos e partem para Dragão Dormente.",
   ],
