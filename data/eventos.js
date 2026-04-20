@@ -419,8 +419,9 @@ const eventos = [
   { ano: 4892, estacao: "Outono", dia: 40, eventos: ["Destruição completa da cidade de Aush"], comemorativa: false, definidor: true },
   { ano: 4893, estacao: "Primavera", dia: 88, eventos: ["Batalha do Rio de Sangue"], comemorativa: false, definidor: true },
   { ano: 4895, estacao: "Inverno", dia: 1, eventos: ["16° Reinado Élfico"], comemorativa: false, definidor: true },
-  { ano: 4895, estacao: "Primavera", dia: 1, eventos: ["Desaparecimento de Maoridos Rhines;"], comemorativa: false, definidor: true },
+  { ano: 4895, estacao: "Primavera", dia: 1, eventos: ["Desaparecimento de Maoridos Rhines"], comemorativa: false, definidor: true },
   { ano: 4895, estacao: "Inverno", dia: 15, eventos: ["Morte da Rainha de Rubi, fim da guerra contra Companhia Negra",], comemorativa: false, definidor: true },
+  { ano: 4899, estacao: "Primavera", dia: 45, eventos: ["Queda da Encosta de Água Turva"], comemorativa: false, definidor: true },
   { ano: 4900, estacao: "Primavera", dia: 64, eventos: ["Invasão Goblinóide à Dragão Dormente"],comemorativa: false,definidor: true },
   { ano: 4900, estacao: "Verão", dia: 7, eventos: ["Um Eclipse recai sob Aedrim após o meio dia"],comemorativa: false,definidor: true },
   { ano: 4900, estacao: "Verão", dia: 12, eventos: ["A cidade de Queldor desaparece, deixando uma gigantesca cratera em seu lugar"],comemorativa: false,definidor: true },
@@ -1569,7 +1570,7 @@ const eventos = [
   estacao: "Verão",
   dia: 20,
   eventos: [
-	  "Chegando a cidade Apis, Ceres, Lliwilan, Dorian, Jack e Tilayra chegam em madeira à deriva e seguem direto para Serpente Sonolenta, dormindo da tarde até o dia seguinte."
+	  "Chegando a cidade Apis, Ceres, Rafaella, Lliwilan, Dorian, Jack e Tilayra chegam em madeira à deriva e seguem direto para Serpente Sonolenta, dormindo da tarde até o dia seguinte."
   ],
   comemorativa: false
 },
@@ -1579,7 +1580,17 @@ const eventos = [
   dia: 21,
   eventos: [
 	  "À tarde o grupo conhece um felindrum monge, Jean-Paul du Nordvent, que se junta à  Apis, Ceres, Lliwilan, Dorian, Jack e Tilayra",
-	  "À noite, cercados pel"
+	  "À noite, cercados pela fogueira na cidade de Madeira à Deriva, Apis, Ceres, Rafaella e Tilayra desejam seus votos aos que caíram, sentindo falta de Vésperus.",
+	  "Apis, Ceres, Rafaella, Lliwilan, Dorian, Jack, Tilayra e Jean-Paul passam juntos e partem para Dragão Dormente.",
+  ],
+  comemorativa: false
+},
+	{
+  ano: 4900,
+  estacao: "Verão",
+  dia: 21,
+  eventos: [
+	  "Apis, Ceres, Rafaella, Lliwilan, Dorian, Jack, Tilayra e Jean-Paul passam juntos e partem para Dragão Dormente.",
   ],
   comemorativa: false
 },
