@@ -1516,7 +1516,9 @@ const eventos = [
 		"Ao adentrarem a passagem, encontraram o Dragão Verde  e seu tesouro. Com isso, um intenso combate se iniciou, com a posterior chegada de um grupo de lacertílios para auxiliar o dragão. Em diversos momentos, Apis, Dorian, Lliwilan, Tilayra e Rafaella caíram inconscientes ao chão, mas conseguiram se erguer novamente para continuar lutando.",
 		"Em um heroico e bravo ato, Vésperus Luthier utilizou de suas últimas forças para proteger o grupo e conter os esforços do dragão com um pergaminho de contramagia, mas o bardo faleceu em combate após ser brutalmente arranhado e esmagado pelo dragão.",
 		"Diante do sacrifício de seu companheiro, o grupo lutou ferozmente e após muito esforço, derrotou o dragão com um golpe furioso de Apis.",
+	    "Apis, Ceres, Lliwilan, Dorian e Tilayra retornam com os sobreviventes, prisioneiros, e guardas do culto incluindo Jack o queimado.",
 	  	"Crinvok Nurdak, Lily Nightshade e Freya voltam de suas missões de coleta.",
+	  
   ],
   comemorativa: false
 },
@@ -1533,7 +1535,7 @@ const eventos = [
 	  "Varis e seu tio, Halor Nailo, conversam com Amargo e se desentendem com ele.",
 	  "Charlotte, Crinvok e Varis se reúnem para beber, conversando rapidamente com Maria e colocam os assuntos em dia do preíodo pós-morte de Charlotte até o atual momento. Enquanto bebem, presenciam a garota elfa trapaceando em um jogo de cartas.",
 	  "Na noite daquele dia, encontraram um arqueiro chamado Teperson, que se uniu à bebedeira deles",
-	  "Bêbados, o grupo vai dormir e Charlotte coloca Teperson e Crinvok na mesma cama."
+	  "Bêbados, o grupo vai dormir e Charlotte coloca Teperson e Crinvok na mesma cama.",
   ],
   comemorativa: false
 },
@@ -1543,9 +1545,9 @@ const eventos = [
   dia: 19,
   eventos: [
 	  "Charlotte Morningstar continuou seu treinamento na parte da manhã.",
-	  "À tarde chegou e o grupo de Charlotte, Crinvok e Varis se encontra com um novo aventureiro, o meio-orc Nyco, que pretende entrar para Guilda.",
+	  "À tarde chegou e o grupo de Charlotte, Crinvok, Teperson e Varis se encontra com um novo aventureiro, o meio-orc Nyco, que pretende entrar para Guilda.",
 	  "Indo para o centro da cidade, conversam com Elysia, comprando tapeçaria e símbolos sagrados.",
-	  "Sabendo do templo ao leste, o grupo se junta à "
+	  "Sabendo do templo ao leste, o grupo de Charlotte, Crinvok, Teperson, Varis e Nyco se junta para partir à leste em busca do templo dos Tatuados de Talhos.",
   ],
   comemorativa: false
 },
@@ -1554,7 +1556,17 @@ const eventos = [
   estacao: "Verão",
   dia: 20,
   eventos: [
-	  
+	  "Chegando a cidade Apis, Ceres, Lliwilan, Dorian, Jack e Tilayra chegam em madeira à deriva e seguem direto para Serpente Sonolenta, dormindo da tarde até o dia seguinte."
+  ],
+  comemorativa: false
+},
+	{
+  ano: 4900,
+  estacao: "Verão",
+  dia: 21,
+  eventos: [
+	  "À tarde o grupo conhece um felindrum monge, Jean-Paul du Nordvent, que se junta à  Apis, Ceres, Lliwilan, Dorian, Jack e Tilayra",
+	  "À noite, cercados pel"
   ],
   comemorativa: false
 },
