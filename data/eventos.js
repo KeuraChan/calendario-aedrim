@@ -1570,8 +1570,8 @@ const eventos = [
   estacao: "Verão",
   dia: 20,
   eventos: [
-	  "Chegando em Madeira à Deriva cidade Apis, Ceres, Rafaella, Lliwilan, Dorian, Jack e Tilayra chegam em madeira à deriva e seguem direto para Serpente Sonolenta, dormindo da tarde até o dia seguinte."
-	  "Seren, uma nômade e leitora de cartas chega À cidade de Taverna do Dragão Dormente, jogando dados e tendo a sorte lida por um Homem em Cinza, ela recbe um dado e requisitada à entregar à meia-celestial Charlotte. Investigando um pouco, ela parte atrás do grupo de aventureiros."
+	  "Chegando em Madeira à Deriva cidade Apis, Ceres, Rafaella, Lliwilan, Dorian, Jack e Tilayra chegam em madeira à deriva e seguem direto para Serpente Sonolenta, dormindo da tarde até o dia seguinte.",
+	  "Seren, uma nômade e leitora de cartas chega À cidade de Taverna do Dragão Dormente, jogando dados e tendo a sorte lida por um Homem em Cinza, ela recbe um dado e requisitada à entregar à meia-celestial Charlotte. Investigando um pouco, ela parte atrás do grupo de aventureiros.",
   ],
   comemorativa: false
 },
