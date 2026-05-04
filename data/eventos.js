@@ -1612,4 +1612,54 @@ const eventos = [
   ],
   comemorativa: false
 },
+	{
+  ano: 4900,
+  estacao: "Verão",
+  dia: 23,
+  eventos: [
+	  "Apis, Ceres, Rafaella, Lliwilan, Dorian, Jack, Tilayra e Jean-Paul, durante a noite, vem sobreviventes de Queldor que passam uma noite com o grupo, partindo no dia seguinte.",
+  ],
+  comemorativa: false
+},
+{
+  ano: 4900,
+  estacao: "Verão",
+  dia: 24,
+  eventos: [
+	  "Luke Drakin do Carmesin Distorcido chega à cidade de Taverna do Dragão Dormente. Se candidatando para a guilda como um aventureiro, se aventurando nas estradas após receber uma missão para investigar sobre os ataques goblins na estradas à caminho de Templo de Pedra.",
+  ],
+  comemorativa: false
+},
+{
+  ano: 4900,
+  estacao: "Verão",
+  dia: 25,
+  eventos: [
+	"Luke Drakin do Carmesin Distorcido caminha e dorme sob as estrelas, vendo uma chuva de estrelas cadentes.",
+	"Durante a manhã Apis, Ceres, Rafaella, Lliwilan, Dorian, Jack, Tilayra e Jean-Paul encontram um cavalo chamado Juan que fugia ferido junto à um cavaleiro. O cavaleiro estava morto e foi arrastado pelas estradas.",
+	"Durante a noite Ceres, Tilayra e Jean-Paul encontram próximos do acampamento uma carcaça animal, que rosna, porém foge de seu fogo.",
+  ],
+  comemorativa: false
+},
+{
+  ano: 4900,
+  estacao: "Verão",
+  dia: 26,
+  eventos: [
+	"Luke Drakin do Carmesin Distorcido vê um cavaleiro correndo pelas estradas, passando veloz por ele.",
+	"Seguindo a estrada Luke Drakin vê aquele mesmo cavaleiro morto no meio da rua e quando se aproxima, um grupo de caça goblin o ataca.",
+	"Derrotando o grupo de 6 goblins, um grupo muito maior se aproxima, quase sem esperanças Luke Drakin reza para sua deusa.",
+	"Apis, Ceres, Rafaella, Lliwilan, Dorian, Jack, Tilayra e Jean-Paul se aproximamm e conjurando uma esfera de chamas, eles salvam o meio Dragão. levando dois goblins vivos para Dragão Dormente."
+  ],
+  comemorativa: false
+},
+{
+  ano: 4900,
+  estacao: "Verão",
+  dia: 28,
+  eventos: [
+	  "Apis, Ceres, Rafaella, Lliwilan, Dorian, Jack, Tilayra, Jean-Paul e Luke Drakin do Carmesin Distorcido retornam à cidade de Taverna do Dragão Dormente.",
+  ],
+  comemorativa: false
+},
 ];
