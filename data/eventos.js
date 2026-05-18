@@ -1584,7 +1584,7 @@ const eventos = [
     "Charlotte, Crinvok, Teperson, Varis e Nyco se afastam e descansam durante a noite."
   ],
   comemorativa: false
-}
+},
 {
   ano: 4900,
   estacao: "Verão",
@@ -1599,7 +1599,7 @@ const eventos = [
     "O grupo sobrevive ao confronto, embora Nyco tenha o nariz quebrado antes de o Lobo desaparecer. Questionada, a nômade revela que veio junto de Lillith quando foram atacados e entrega o dado a Charlotte, que se pergunta: 'Quem foi o segundo?'"
   ],
   comemorativa: false
-}
+},
 	{
   ano: 4900,
   estacao: "Verão",
