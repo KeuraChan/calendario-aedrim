@@ -1571,42 +1571,42 @@ const eventos = [
   ],
   comemorativa: false
 },
-	{
+{
   ano: 4900,
   estacao: "Verão",
   dia: 19,
   eventos: [
-	  "Charlotte Morningstar continuou seu treinamento na parte da manhã.",
-	  "À tarde chegou e o grupo de Charlotte, Crinvok, Teperson e Varis se encontra com um novo aventureiro, o meio-orc Nyco, que pretende entrar para Guilda.",
-	  "Indo para o centro da cidade, conversam com Elysia, comprando tapeçaria e símbolos sagrados.",
-	  "Sabendo do templo ao leste, o grupo de Charlotte, Crinvok, Teperson, Varis e Nyco se junta para partir à leste em busca do templo dos Tatuados de Talhos.",
-	  "Os aventureiros indo para leste de Taverna do Dragão Dormente encontram uma antiga tumba com duas flechas inscrita com runas mágicas."
-	  "Charlotte, Crinvok, Teperson, Varis e Nyco se afastam e descansam pela noite.",
+    "Charlotte Morningstar continuou seu treinamento durante a manhã.",
+    "À tarde, o grupo de Charlotte, Crinvok, Teperson e Varis encontra um novo aventureiro: o meio-orc Nyco, que pretende entrar para a Guilda.",
+    "Indo para o centro da cidade, o grupo conversa com Elysia, comprando tapeçarias e símbolos sagrados.",
+    "Ao descobrirem sobre o templo ao leste, Charlotte, Crinvok, Teperson, Varis e Nyco partem juntos em busca do templo dos Tatuados de Talhos.",
+    "Seguindo para o leste de Taverna do Dragão Dormente, os aventureiros encontram uma antiga tumba com duas flechas inscritas com runas mágicas.",
+    "Charlotte, Crinvok, Teperson, Varis e Nyco se afastam e descansam durante a noite."
   ],
   comemorativa: false
-},
+}
 {
   ano: 4900,
   estacao: "Verão",
   dia: 20,
   eventos: [
-	  "Chegando em Madeira à Deriva cidade Apis, Ceres, Rafaella, Lliwilan, Dorian, Jack e Tilayra chegam em madeira à deriva e seguem direto para Serpente Sonolenta, dormindo da tarde até o dia seguinte.",
-	  "Charlotte, Crinvok, Teperson, Varis e Nyco despertam e há a tentativa de serem assaltados por um grupo de guerra orc, o qual derrotam com uma bola de fogo vinda de Varis.",
-	  "Seren, uma nômade e leitora de cartas chega À cidade de Taverna do Dragão Dormente, jogando dados e tendo a sorte lida por um Homem em Cinza, ela recbe um dado e requisitada à entregar à meia-celestial Charlotte. Investigando um pouco, ela parte atrás do grupo de aventureiros.",
-	  "Charlotte, Crinvok, Teperson, Varis e Nyco tentam preparar um armadilha à lobos vampiro quando ouvem o som de alguém gritando na floresta.",
-	  "Indo até lá Charlotte e Varis salvam uma mulher nômade de um lobo vampiro.",
-	  "Retornando com o corpo do lobo e da nômade, os aventureiros cuidam da mulher quando Charlotte e Varis descem até o acampamento falso, sendo atacos em seguida pelo 'Lobo' que estava no ataque do 64º de Dragão Dormente.",
-	  "O grupo sobrevive Charlotte, Crinvok, Teperson, Varis e Nyco sobrevivem até Nyco ter o nariz quebrado e o Lobo desaparecer. Perguntnado a nômade revela que veio junto à Lillith quando foram atacados e entrega o dado à Charlotte que se pergunta 'Quem foi o segundo?'"
+    "Chegando a Madeira à Deriva, Apis, Ceres, Rafaella, Lliwilan, Dorian, Jack e Tilayra seguem direto para a Serpente Sonolenta, dormindo da tarde até o dia seguinte.",
+    "Charlotte, Crinvok, Teperson, Varis e Nyco despertam e sofrem uma tentativa de assalto por um grupo de guerra orc, o qual derrotam com uma bola de fogo lançada por Varis.",
+    "Seren, uma nômade e leitora de cartas, chega à cidade de Dragão Dormente. Após jogar dados e ter a sorte lida por um Homem em Cinza, ela recebe um dado e é requisitada a entregá-lo à meia-celestial Charlotte. Investigando um pouco, ela parte em busca do grupo de aventureiros.",
+    "Charlotte, Crinvok, Teperson, Varis e Nyco tentam preparar uma armadilha para lobos vampiros quando ouvem alguém gritando na floresta.",
+    "Ao irem até lá, Charlotte e Varis salvam uma mulher nômade de um lobo vampiro.",
+    "Retornando com o corpo do lobo e a nômade, os aventureiros cuidam da mulher enquanto Charlotte e Varis descem até o falso acampamento, sendo atacados em seguida pelo 'Lobo' envolvido no ataque do 64º de Dragão Dormente.",
+    "O grupo sobrevive ao confronto, embora Nyco tenha o nariz quebrado antes de o Lobo desaparecer. Questionada, a nômade revela que veio junto de Lillith quando foram atacados e entrega o dado a Charlotte, que se pergunta: 'Quem foi o segundo?'"
   ],
   comemorativa: false
-},
+}
 	{
   ano: 4900,
   estacao: "Verão",
   dia: 21,
   eventos: [
 	  "À tarde o grupo conhece um felindrum monge, Jean-Paul du Nordvent, que se junta à  Apis, Ceres, Lliwilan, Dorian, Jack e Tilayra",
-	  "À noite, cercados pela fogueira na cidade de Madeira à Deriva, Apis, Ceres, Rafaella e Tilayra desejam seus votos aos que caíram, sentindo falta de Vésperus.",
+	  "À noite, reunidos ao redor da fogueira na cidade de Madeira à Deriva, Apis, Ceres, Rafaella e Tilayra prestam suas homenagens aos que caíram, sentindo a falta de Vésperus.",
   ],
   comemorativa: false
 },
