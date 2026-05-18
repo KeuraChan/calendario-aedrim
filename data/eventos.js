@@ -1576,7 +1576,7 @@ const eventos = [
   estacao: "Verão",
   dia: 19,
   eventos: [
-    "Charlotte Morningstar continuou seu treinamento durante a manhã.",
+    "Charlotte Morningstar continuou seu treinamento durante a manhã. (29/50)",
     "À tarde, o grupo de Charlotte, Crinvok, Teperson e Varis encontra um novo aventureiro: o meio-orc Nyco, que pretende entrar para a Guilda.",
     "Indo para o centro da cidade, o grupo conversa com Elysia, comprando tapeçarias e símbolos sagrados.",
     "Ao descobrirem sobre o templo ao leste, Charlotte, Crinvok, Teperson, Varis e Nyco partem juntos em busca do templo dos Tatuados de Talhos.",
