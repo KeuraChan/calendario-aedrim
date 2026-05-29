@@ -1665,8 +1665,22 @@ const eventos = [
   estacao: "Verão",
   dia: 28,
   eventos: [
-	  "Apis, Ceres, Rafaella, Lliwilan, Dorian, Jack, Tilayra, Jean-Paul e Luke Drakin do Carmesin Distorcido retornam à cidade de Taverna do Dragão Dormente.",
-  ],
+	  "Apis, Ceres, Rafaella, Lliwilan, Dorian, Jack, Tilayra, Jean-Paul e Luke Drakin do Carmesin Distorcido retornam à cidade de Taverna do Dragão Dormente no cair da tarde.",
+	  "Ceres, Rafaella, Tilayra, Jean-Paul e Luke Drakin informam Amargo sobre os suas missões, onde o mesmo anota as informações, principalmente quando mencionam algo sobre uma mestra verde.",
+	  "Rafaella e Jean-Paul saem juntos, avista a garota elfa que reconhece Rafaella, elas conversam onde a meia-celestial decobre a 'doença' da elfa.",
+	  "Ceres, Jack, Tilayra e Luke vão para o Templo Dourado, onde conseguemm colocar Jack para ser tratado e Ceres vê o seu Tio, paralisado e dormindo após ter sido revivido na noite anterior.",
+	  "Jean-Paul e Rafaela encontram Borin, coureiro e açougueiro e devolvem o couro que pegaram para vender",
+	  "Comendo e se preparando para próximas missões, Ceres, Rafaella, Tilayra, Jean-Paul e Luke Drakin pegam mais informações sobre o ovo de dragão roubado.",
+	],
+  comemorativa: false
+},
+{
+  ano: 4900,
+  estacao: "Verão",
+  dia: 29,
+  eventos: [
+	  "Ceres passa a manhã vendendo jóis e outros objetos de valor, a anã compra um cavalo para Luke e coleta 5kg de comida nas redondezas da cidade Tverna do Dragão Dormente.",
+	],
   comemorativa: false
 },
 ];
