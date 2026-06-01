@@ -1600,7 +1600,7 @@ const eventos = [
     "Charlotte, Crinvok, Teperson, Varis e Nyco tentam preparar uma armadilha para lobos vampiros quando ouvem alguém gritando na floresta.",
     "Ao irem até lá, Charlotte e Varis salvam uma mulher nômade de um lobo vampiro.",
     "Retornando com o corpo do lobo e a nômade, os aventureiros cuidam da mulher enquanto Charlotte e Varis descem até o falso acampamento, sendo atacados em seguida pelo 'Lobo' envolvido no ataque do 64º de Dragão Dormente.",
-    "O grupo sobrevive ao confronto, embora Nyco tenha o nariz quebrado antes de o Lobo desaparecer. Questionada, a nômade revela que veio junto de Lillith quando foram atacados e entrega o dado a Charlotte, que se pergunta: 'Quem foi o segundo?'"
+    "O grupo sobrevive ao confronto, embora Nyco tenha o nariz quebrado antes de o Lobo desaparecer. Questionada, a nômade revela que veio junto de Lillith quando foram atacados e entrega o dado a Charlotte, que se pergunta: 'Quem foi o segundo?'",
 	"Após conversarem e descansarem durante a noite, Crinvok encontra uma cobra na região a qua alimenta, extrai seu veneno e o bebe, fazendo com que a serpente o siga.",
   ],
   comemorativa: false
