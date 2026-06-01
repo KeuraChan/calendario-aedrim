@@ -1600,6 +1600,7 @@ const eventos = [
     "Ao irem até lá, Charlotte e Varis salvam uma mulher nômade de um lobo vampiro.",
     "Retornando com o corpo do lobo e a nômade, os aventureiros cuidam da mulher enquanto Charlotte e Varis descem até o falso acampamento, sendo atacados em seguida pelo 'Lobo' envolvido no ataque do 64º de Dragão Dormente.",
     "O grupo sobrevive ao confronto, embora Nyco tenha o nariz quebrado antes de o Lobo desaparecer. Questionada, a nômade revela que veio junto de Lillith quando foram atacados e entrega o dado a Charlotte, que se pergunta: 'Quem foi o segundo?'"
+	"Após conversarem e descansarem durante a noite, Crinvok encontra uma cobra na região a qua alimenta, extrai seu veneno e o bebe, fazendo com que a serpente o siga.",
   ],
   comemorativa: false
 },
@@ -1610,6 +1611,8 @@ const eventos = [
   eventos: [
 	  "À tarde o grupo conhece um felindrum monge, Jean-Paul du Nordvent, que se junta à  Apis, Ceres, Lliwilan, Dorian, Jack e Tilayra",
 	  "À noite, reunidos ao redor da fogueira na cidade de Madeira à Deriva, Apis, Ceres, Rafaella e Tilayra prestam suas homenagens aos que caíram, sentindo a falta de Vésperus.",
+	  "O grupo de Varis, Charlotte, Nyko e Crinvok concordam em partir e procurar a companheira de Crinvok. Teperson concorda em levar a nômade ferida de volta à Taverna do Dragão Dormente.",
+	  "Conversando com ela, Charlotte descobre o corpo de um grande lobo vampiro, onde Crinvok descobre os rastro de um impasse, um grupo encurralou alguém na região, fato que ele assume ser sua amiga Lillith.",
   ],
   comemorativa: false
 },
