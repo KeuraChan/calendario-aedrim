@@ -415,6 +415,7 @@ const eventos = [
   { ano: 4865, estacao: "Verão", dia: 15, eventos: ["Kara é encontrada pelo grupo 7 da Companhia Negra"], comemorativa: false, definidor: true },
   { ano: 4890, estacao: "Primavera", dia: 5, eventos: ["Início da Guerra contra a Companhia Negra."], comemorativa: false, definidor: true },
   { ano: 4890, estacao: "Verão", dia: 8, eventos: ["Morte de Ignacius II Rei de Badür"], comemorativa: false, definidor: true },
+  { ano: 4890, estacao: "Verão", dia: 36, eventos: ["Morte do Shogun da Disnastia Leste de Yukovia, Yukari Haru"], comemorativa: false, definidor: true },
   { ano: 4892, estacao: "Verão", dia: 10, eventos: ["Ataque ao Forte Estrela Negra"], comemorativa: false, definidor: true },
   { ano: 4892, estacao: "Outono", dia: 40, eventos: ["Destruição completa da cidade de Aush"], comemorativa: false, definidor: true },
   { ano: 4893, estacao: "Primavera", dia: 88, eventos: ["Batalha do Rio de Sangue"], comemorativa: false, definidor: true },
