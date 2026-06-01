@@ -506,8 +506,9 @@ const eventos = [
 	  "Encontrando uma criatura de um único olho, os aventureiros fazem um acordo por pagamento e se livrar da 'tacelã' e do 'louco'. Porém ao encontrarem a grande aranha tecelã, os aventureiros são atacadas por outras aranhas pequenas que arrancam a orelha esquerda de Mikhael",
 	  "Com um descanso curto, o grupo se aproxima do 'louco' um meio-dragão azul extremamente magro, o homem suspeita que os aventureiros invadiram para roubar sua pedra de Dwyfol.",
 	  "Atacando e derrotando o 'louco', Mikhael, Bramin e Domingus enfrentam um espectro que possuiu o corpo do homem. Soterrados pela criatura de um olho, eles queimam o corpo e conseguem escapar após um dos kobolds retornar.",
-	  "Posson"
-	  "Após serem salvos, o grupo de  Mikhael, Bramin e Domingus retornam ao acampamento de Marimaar, descobrindo que o antigo Shogun 'Haru', morreu e recebendo agora ordens do novo lord 'Takeda'"
+	  "Posson, um Meio-Dragão verde e já velho é chamado para conversar com o grupo onde contar sobre Aguür, o 'louco' que ficou assim após terem encontrado a pedra de Dwyfol.",
+	  "Após serem salvos, o grupo de  Mikhael, Bramin e Domingus retornam ao acampamento de Marimaar, descobrindo que o antigo Shogun 'Haru', morreu e recebendo agora ordens do novo lord 'Takeda'",
+	  "Pedindo seu empréstimo, o grupo de Mikhael, Bramin e Domingus contam sobre a pedra o que faz o mesageiro Raru Takeda correr para seu cavalo, afim de avisar seu senhor da oferta. O lorde deveria vir para garantir a vericidade da pedra.",
     ],
     comemorativa: false,
   },
