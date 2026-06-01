@@ -490,7 +490,7 @@ const eventos = [
     estacao: "Verão",
     dia: 31,
     eventos: [
-      "Em Yukovia, um grupo chega até as terras entre as montanhas do silêncio, 'Marimaar', marcando início de uma nova aldeia.",
+      "Em Yukovia, um grupo chega até as terras entre as montanhas do silêncio, '1+', marcando início de uma nova aldeia.",
     ],
     comemorativa: false,
   },
@@ -499,12 +499,15 @@ const eventos = [
     estacao: "Verão",
     dia: 42,
     eventos: [
-      "Após conversar com todos os habitante locais Mikhael Arden ouve os problemas locais, depertando para descobrir que durante a viagem, um dos viajantes morreu.",
+      "Após conversar com todos os habitantes locais, Mikhael Arden ouve os problemas locais, depertando para descobrir que durante a viagem, um dos viajantes morreu.",
 	  "Conversando com a viúva, Mikhael Arden se propôs a enterrar o corpo já apodrecido do homem",
   	  "Mikhael, Bramin e Domingus enterram o corpo. Tendo sido apresentados com Morti, um dos kobolds desapareceu, procurando por ele os 3 aventureiros se encontram encontrando armadilhas de kobolds",
 	  "Encontrando Morti pendurado, em uma árvore. Mikhael, Bramin e Domingus adentram uma mina abandonada, encontrando um grupo de Kobolds que pediram pra se livrar do perigo nas cavernas.",
 	  "Encontrando uma criatura de um único olho, os aventureiros fazem um acordo por pagamento e se livrar da 'tacelã' e do 'louco'. Porém ao encontrarem a grande aranha tecelã, os aventureiros são atacadas por outras aranhas pequenas que arrancam a orelha esquerda de Mikhael",
-	  "Com um descanso curto, o grupo se aproxima do 'louco' um meio-dragão azul extremamente magro, o homem suspeita que os aventureiros invadiram para roubar sua pedra de Dwyfol." 
+	  "Com um descanso curto, o grupo se aproxima do 'louco' um meio-dragão azul extremamente magro, o homem suspeita que os aventureiros invadiram para roubar sua pedra de Dwyfol.",
+	  "Atacando e derrotando o 'louco', Mikhael, Bramin e Domingus enfrentam um espectro que possuiu o corpo do homem. Soterrados pela criatura de um olho, eles queimam o corpo e conseguem escapar após um dos kobolds retornar.",
+	  "Posson"
+	  "Após serem salvos, o grupo de  Mikhael, Bramin e Domingus retornam ao acampamento de Marimaar, descobrindo que o antigo Shogun 'Haru', morreu e recebendo agora ordens do novo lord 'Takeda'"
     ],
     comemorativa: false,
   },
