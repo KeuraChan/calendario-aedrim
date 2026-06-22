@@ -1693,7 +1693,23 @@ const eventos = [
   dia: 29,
   eventos: [
 	  "Ceres passa a manhã vendendo joias e outros objetos de valor. A anã compra um cavalo para Luke e coleta 5 kg de comida nas redondezas da cidade de Taverna do Dragão Dormente.",
+	  "Comemorando na cidade, Ceres, Jean-Paul e Luke participam da competição do Desafio de Queda (Osenniy Vyzov)",
+	  "Jean-Paul vence o Desafio de Queda (Osenniy Vyzov), ficando conhecido como Barriga de Ferro (Kamennyy Zhivot).",
+	  "Jean-Paul recebe um carregamento de 360 litros de cerveja, uma Rubi Puro de Mihödir e o título de  Barriga de Ferro (Kamennyy Zhivot).",
+	  "Após as competições, Ceres, Jean-Paul, Rafaella, Luke e Tilayra se reúnem maisu ma vez. Rafaella alguns estranhos que estavam atrás da garota elfa que, 'mexeu com as pessoas erradas' com um grupo que se chamou de 'Garra' indo atrás dela.",
+	  "Recusando o pedido de ajuda da meina, ela se retira enquanto Ceres, Jean-Paul, Rafaella, Luke e Tilayra abrem uma conta no banco.",
 	],
+  comemorativa: false
+},
+{
+  ano: 4900,
+  estacao: "Verão",
+  dia: 30,
+  eventos: [
+	  "Saindo pela manhã, o grupo de Ceres, Jean-Paul, Rafaella, Luke e Tilayra parte para a encruzilhada próxima à cidade Taverna do Dragão Dormente.",
+	  "No meio da noite o grupo de Ceres, Jean-Paul, Rafaella, Luke e Tilayra são encontrados por um mago e dois assassinos, aprentemente aventureiros fazendo a mesma missão e, após provocados, atacam.",
+	  "Luke e Rafaella caem no chão, morrendo, mas o mago que foi deixado vivo os dá um antídoto que consegue os ajuda a se reestabelecer."
+  ],
   comemorativa: false
 },
 ];
