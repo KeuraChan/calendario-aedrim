@@ -1615,6 +1615,10 @@ const eventos = [
 	  "À noite, reunidos ao redor da fogueira na cidade de Madeira à Deriva, Apis, Ceres, Rafaella e Tilayra prestam suas homenagens aos que caíram, sentindo a falta de Vésperus.",
 	  "O grupo de Varis, Charlotte, Nyko e Crinvok concordam em partir e procurar a companheira de Crinvok. Teperson concorda em levar a nômade ferida de volta à Taverna do Dragão Dormente.",
 	  "Conversando com ela, Charlotte descobre o corpo de um grande lobo vampiro, onde Crinvok descobre os rastro de um impasse, um grupo encurralou alguém na região, fato que ele assume ser sua amiga Lillith.",
+	  "Varis, Charlotte, Nyko e Crinvok encontram e se aproximam de um antigo templo nas montanhas.",
+	  "Se aproximando de Varis, o aventureiro é abordado por dois dos guardas do templo e convidado à entrar.",
+	  "Varis conversa sobre o templo em si com uma anã cultista. Até saber sobre a pequena garota Olga.",
+	  "Charlotte, Nyko e Crinvok são feitos prisioneiros e trancados na prisão junto de Lillith onde conversam."
   ],
   comemorativa: false
 },
@@ -1624,6 +1628,7 @@ const eventos = [
   dia: 22,
   eventos: [
 	  "Apis, Ceres, Rafaella, Lliwilan, Dorian, Jack, Tilayra e Jean-Paul passam juntos e partem para Dragão Dormente.",
+	  "Charlotte, Nyko e Crinvok são levados para fora onde são avisados que serão julgados por sua invasão.",
   ],
   comemorativa: false
 },
